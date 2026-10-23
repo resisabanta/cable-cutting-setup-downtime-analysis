@@ -28,8 +28,11 @@ class IntegrityTests(unittest.TestCase):
 
     def test_reject_rotary_event_without_rotary_box(self):
         row=next(r.copy() for r in self.events if r['configuration_id']=='SIM-CONFIG-05' and r['machine_section']=='cutting_stripping')
+        configs=copy.deepcopy(self.configs)
+        cutter=next(r for r in configs if r['configuration_id']=='SIM-CONFIG-05' and r['machine_section']=='cutting_stripping')
+        cutter.update(equipment_code='powerstrip_9500_nonrotary',rotary_box='absent')
         row.update(event_type='setup',cause='rotary_box_calibration')
-        with self.assertRaisesRegex(ValueError,'incompatible'):validate_events([row],self.configs)
+        with self.assertRaisesRegex(ValueError,'incompatible'):validate_events([row],configs)
 
     def test_reject_wrong_collection_equipment(self):
         row=next(r.copy() for r in self.events if r['configuration_id']=='SIM-CONFIG-02' and r['machine_section']=='collection_machine')

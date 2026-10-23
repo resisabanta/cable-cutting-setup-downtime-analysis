@@ -52,9 +52,9 @@ All five start with **cable feeder / unwinder → V-loop buffer → letter marki
 | SIM-CONFIG-02 / SIM-CUT-02 | TEZA → Schleuniger PowerStrip 9500 → Schleuniger CableCoiler 1300 | User-supplied experience example; no CSU |
 | SIM-CONFIG-03 / SIM-CUT-03 | CSU → TEZA → Schleuniger PowerStrip 9500 → Schleuniger WireStacker 1000 | User-supplied experience example |
 | SIM-CONFIG-04 / SIM-CUT-04 | TEZA → Schleuniger PowerStrip 9500 with rotary box → active offloader | Hypothetical training variant; no CSU |
-| SIM-CONFIG-05 / SIM-CUT-05 | CSU → TEZA → Schleuniger PowerStrip 9500 without rotary box → passive offloader | Hypothetical training variant |
+| SIM-CONFIG-05 / SIM-CUT-05 | CSU → TEZA → Schleuniger PowerStrip 9500 with rotary box → passive offloader | Hypothetical training variant |
 
-The training reference describes modular lines, cutters with/without rotary boxes, and alternative collection equipment. It does **not** establish that all these options belong to a particular cutter model or that configurations 4–5 exist as installed lines. The user has confirmed that every cutter in all five configurations is a Schleuniger PowerStrip 9500. Their rotary/non-rotary arrangements remain synthetic assumptions, not independently verified installations. Rotary capability for the three user examples is `unknown`; unknown is not the same as absent. Events requiring rotary equipment are generated only when capability is explicitly `present`.
+The official PowerStrip 9500 family specification lists rotary stripping as a model-dependent module (for example, RSL/RS/RX). For this portfolio, the user has confirmed that the installed PowerStrip 9500 cutters in all five modeled lines have a rotary box. Therefore every configuration records `rotary_box=present` and uses the explicit rotary equipment code. Configurations 1–3 are user-supplied examples; configurations 4–5 remain synthetic layout variants.
 
 ### Equipment functions
 
@@ -66,8 +66,8 @@ The training reference describes modular lines, cutters with/without rotary boxe
 | CSU | Center-strip processing, following the user's functional description; model unspecified. |
 | TEZA | Transfer-ribbon marking, following the project description; full model unspecified. |
 | PowerStrip 9500 | User-confirmed cut-and-strip model in all five configurations. |
-| PowerStrip 9500 with rotary box | Model confirmed by the user; rotary configuration remains hypothetical. |
-| PowerStrip 9500 without rotary box | Model confirmed by the user; non-rotary configuration remains hypothetical. |
+| PowerStrip 9500 with rotary box | User-confirmed capability in all five modeled configurations; model family documentation treats rotary stripping as configuration-dependent. |
+
 | CableCoiler 1300 | Collects processed cable as coils. |
 | WireStacker 1000 | Collects and stacks processed wires. |
 | Integrated KUKA cell | Handles coiled cable, paper taping, and final placement on the cable stand as one collection cell. Its internal coiler model is unspecified; no CC1300 is assumed inside it. |

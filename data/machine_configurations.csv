@@ -4,31 +4,31 @@ SIM-CONFIG-01,SIM-CUT-01,2,v_loop,V-loop cable buffer (model unspecified),user_e
 SIM-CONFIG-01,SIM-CUT-01,3,letter_marking,Cable letter-marking machine (printer type and model unspecified),user_example,unknown,letter_marking
 SIM-CONFIG-01,SIM-CUT-01,4,centerstrip_csu,Center-strip unit (CSU; manufacturer and model unspecified),user_example,unknown,centerstrip_csu
 SIM-CONFIG-01,SIM-CUT-01,5,teza_transfer_ribbon_marking,TEZA transfer-ribbon marking machine (full model name unspecified),user_example,unknown,teza_transfer_ribbon_marking
-SIM-CONFIG-01,SIM-CUT-01,6,cutting_stripping,Schleuniger PowerStrip 9500 automatic cut-and-strip machine,user_example,unknown,powerstrip_9500
+SIM-CONFIG-01,SIM-CUT-01,6,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box,user_example,present,powerstrip_9500_rotary
 SIM-CONFIG-01,SIM-CUT-01,7,collection_machine,"Integrated KUKA robot, paper-taping machine, and cable stand (one collection cell; robot/taping models unspecified)",user_example,unknown,integrated_kuka_cell
 SIM-CONFIG-02,SIM-CUT-02,1,cable_feeder,Cable feeder / unwinder (manufacturer and model unspecified),user_example,unknown,cable_feeder
 SIM-CONFIG-02,SIM-CUT-02,2,v_loop,V-loop cable buffer (model unspecified),user_example,unknown,v_loop
 SIM-CONFIG-02,SIM-CUT-02,3,letter_marking,Cable letter-marking machine (printer type and model unspecified),user_example,unknown,letter_marking
 SIM-CONFIG-02,SIM-CUT-02,4,teza_transfer_ribbon_marking,TEZA transfer-ribbon marking machine (full model name unspecified),user_example,unknown,teza_transfer_ribbon_marking
-SIM-CONFIG-02,SIM-CUT-02,5,cutting_stripping,Schleuniger PowerStrip 9500 automatic cut-and-strip machine,user_example,unknown,powerstrip_9500
+SIM-CONFIG-02,SIM-CUT-02,5,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box,user_example,present,powerstrip_9500_rotary
 SIM-CONFIG-02,SIM-CUT-02,6,collection_machine,Schleuniger CableCoiler 1300 (CC 1300) synchronized cable coiler,user_example,unknown,cablecoiler_1300
 SIM-CONFIG-03,SIM-CUT-03,1,cable_feeder,Cable feeder / unwinder (manufacturer and model unspecified),user_example,unknown,cable_feeder
 SIM-CONFIG-03,SIM-CUT-03,2,v_loop,V-loop cable buffer (model unspecified),user_example,unknown,v_loop
 SIM-CONFIG-03,SIM-CUT-03,3,letter_marking,Cable letter-marking machine (printer type and model unspecified),user_example,unknown,letter_marking
 SIM-CONFIG-03,SIM-CUT-03,4,centerstrip_csu,Center-strip unit (CSU; manufacturer and model unspecified),user_example,unknown,centerstrip_csu
 SIM-CONFIG-03,SIM-CUT-03,5,teza_transfer_ribbon_marking,TEZA transfer-ribbon marking machine (full model name unspecified),user_example,unknown,teza_transfer_ribbon_marking
-SIM-CONFIG-03,SIM-CUT-03,6,cutting_stripping,Schleuniger PowerStrip 9500 automatic cut-and-strip machine,user_example,unknown,powerstrip_9500
+SIM-CONFIG-03,SIM-CUT-03,6,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box,user_example,present,powerstrip_9500_rotary
 SIM-CONFIG-03,SIM-CUT-03,7,collection_machine,Schleuniger WireStacker 1000 (WS 1000) passive wire-stacking system,user_example,unknown,wirestacker_1000
 SIM-CONFIG-04,SIM-CUT-04,1,cable_feeder,Cable feeder / unwinder (manufacturer and model unspecified),synthetic_variant,unknown,cable_feeder
 SIM-CONFIG-04,SIM-CUT-04,2,v_loop,V-loop cable buffer (model unspecified),synthetic_variant,unknown,v_loop
 SIM-CONFIG-04,SIM-CUT-04,3,letter_marking,Cable letter-marking machine (printer type and model unspecified),synthetic_variant,unknown,letter_marking
 SIM-CONFIG-04,SIM-CUT-04,4,teza_transfer_ribbon_marking,TEZA transfer-ribbon marking machine (full model name unspecified),synthetic_variant,unknown,teza_transfer_ribbon_marking
-SIM-CONFIG-04,SIM-CUT-04,5,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box (hypothetical configuration),synthetic_variant,present,powerstrip_9500_rotary
+SIM-CONFIG-04,SIM-CUT-04,5,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box,synthetic_variant,present,powerstrip_9500_rotary
 SIM-CONFIG-04,SIM-CUT-04,6,collection_machine,Active offloader for finished cable (manufacturer and model unspecified),synthetic_variant,unknown,active_offloader
 SIM-CONFIG-05,SIM-CUT-05,1,cable_feeder,Cable feeder / unwinder (manufacturer and model unspecified),synthetic_variant,unknown,cable_feeder
 SIM-CONFIG-05,SIM-CUT-05,2,v_loop,V-loop cable buffer (model unspecified),synthetic_variant,unknown,v_loop
 SIM-CONFIG-05,SIM-CUT-05,3,letter_marking,Cable letter-marking machine (printer type and model unspecified),synthetic_variant,unknown,letter_marking
 SIM-CONFIG-05,SIM-CUT-05,4,centerstrip_csu,Center-strip unit (CSU; manufacturer and model unspecified),synthetic_variant,unknown,centerstrip_csu
 SIM-CONFIG-05,SIM-CUT-05,5,teza_transfer_ribbon_marking,TEZA transfer-ribbon marking machine (full model name unspecified),synthetic_variant,unknown,teza_transfer_ribbon_marking
-SIM-CONFIG-05,SIM-CUT-05,6,cutting_stripping,Schleuniger PowerStrip 9500 without rotary box (hypothetical configuration),synthetic_variant,absent,powerstrip_9500_nonrotary
+SIM-CONFIG-05,SIM-CUT-05,6,cutting_stripping,Schleuniger PowerStrip 9500 with rotary box,synthetic_variant,present,powerstrip_9500_rotary
 SIM-CONFIG-05,SIM-CUT-05,7,collection_machine,Passive offloader for finished cable (manufacturer and model unspecified),synthetic_variant,unknown,passive_offloader
