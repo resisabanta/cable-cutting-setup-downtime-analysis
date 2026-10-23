@@ -1,0 +1,135 @@
+configuration_id,machine_id,machine_section,event_type,cause,action_taken,sampling_weight
+SIM-CONFIG-01,SIM-CUT-01,cable_feeder,unplanned_stop,feed_interruption,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,cable_feeder,unplanned_stop,cable_path_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,cable_feeder,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,cable_feeder,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,v_loop,unplanned_stop,loop_tension_variation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,v_loop,unplanned_stop,buffer_signal_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,v_loop,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,v_loop,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,letter_marking,unplanned_stop,mark_position_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,letter_marking,unplanned_stop,mark_legibility_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,letter_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,letter_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,centerstrip_csu,unplanned_stop,center_strip_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,centerstrip_csu,unplanned_stop,csu_cycle_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,centerstrip_csu,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,centerstrip_csu,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,teza_transfer_ribbon_marking,unplanned_stop,incomplete_ribbon_transfer,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,teza_transfer_ribbon_marking,unplanned_stop,ribbon_feed_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,teza_transfer_ribbon_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,teza_transfer_ribbon_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,cutting_stripping,unplanned_stop,cut_length_deviation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,cutting_stripping,unplanned_stop,incomplete_cut,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,cutting_stripping,unplanned_stop,strip_quality_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,cutting_stripping,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,cutting_stripping,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-01,SIM-CUT-01,collection_machine,unplanned_stop,door_locking_system_issue,Investigate recorded symptom; log simulated corrective action,5
+SIM-CONFIG-01,SIM-CUT-01,collection_machine,unplanned_stop,paper_taping_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-01,SIM-CUT-01,collection_machine,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-01,SIM-CUT-01,collection_machine,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,cable_feeder,unplanned_stop,feed_interruption,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,cable_feeder,unplanned_stop,cable_path_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,cable_feeder,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,cable_feeder,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,v_loop,unplanned_stop,loop_tension_variation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,v_loop,unplanned_stop,buffer_signal_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,v_loop,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,v_loop,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,letter_marking,unplanned_stop,mark_position_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,letter_marking,unplanned_stop,mark_legibility_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,letter_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,letter_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,teza_transfer_ribbon_marking,unplanned_stop,incomplete_ribbon_transfer,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,teza_transfer_ribbon_marking,unplanned_stop,ribbon_feed_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,teza_transfer_ribbon_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,teza_transfer_ribbon_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,cutting_stripping,unplanned_stop,cut_length_deviation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,cutting_stripping,unplanned_stop,incomplete_cut,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,cutting_stripping,unplanned_stop,strip_quality_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,cutting_stripping,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,cutting_stripping,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-02,SIM-CUT-02,collection_machine,unplanned_stop,cablecoiler_feed_or_coiling_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-02,SIM-CUT-02,collection_machine,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-02,SIM-CUT-02,collection_machine,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,cable_feeder,unplanned_stop,feed_interruption,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,cable_feeder,unplanned_stop,cable_path_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,cable_feeder,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,cable_feeder,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,v_loop,unplanned_stop,loop_tension_variation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,v_loop,unplanned_stop,buffer_signal_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,v_loop,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,v_loop,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,letter_marking,unplanned_stop,mark_position_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,letter_marking,unplanned_stop,mark_legibility_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,letter_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,letter_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,centerstrip_csu,unplanned_stop,center_strip_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,centerstrip_csu,unplanned_stop,csu_cycle_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,centerstrip_csu,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,centerstrip_csu,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,teza_transfer_ribbon_marking,unplanned_stop,incomplete_ribbon_transfer,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,teza_transfer_ribbon_marking,unplanned_stop,ribbon_feed_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,teza_transfer_ribbon_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,teza_transfer_ribbon_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,cutting_stripping,unplanned_stop,cut_length_deviation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,cutting_stripping,unplanned_stop,incomplete_cut,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,cutting_stripping,unplanned_stop,strip_quality_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,cutting_stripping,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,cutting_stripping,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-03,SIM-CUT-03,collection_machine,unplanned_stop,wirestacker_stacking_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-03,SIM-CUT-03,collection_machine,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-03,SIM-CUT-03,collection_machine,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,cable_feeder,unplanned_stop,feed_interruption,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,cable_feeder,unplanned_stop,cable_path_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,cable_feeder,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,cable_feeder,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,v_loop,unplanned_stop,loop_tension_variation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,v_loop,unplanned_stop,buffer_signal_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,v_loop,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,v_loop,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,letter_marking,unplanned_stop,mark_position_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,letter_marking,unplanned_stop,mark_legibility_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,letter_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,letter_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,teza_transfer_ribbon_marking,unplanned_stop,incomplete_ribbon_transfer,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,teza_transfer_ribbon_marking,unplanned_stop,ribbon_feed_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,teza_transfer_ribbon_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,teza_transfer_ribbon_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,unplanned_stop,cut_length_deviation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,unplanned_stop,incomplete_cut,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,unplanned_stop,rotary_cut_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,setup,rotary_box_calibration,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,cutting_stripping,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-04,SIM-CUT-04,collection_machine,unplanned_stop,active_offloader_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-04,SIM-CUT-04,collection_machine,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-04,SIM-CUT-04,collection_machine,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,cable_feeder,unplanned_stop,feed_interruption,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,cable_feeder,unplanned_stop,cable_path_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,cable_feeder,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,cable_feeder,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,v_loop,unplanned_stop,loop_tension_variation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,v_loop,unplanned_stop,buffer_signal_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,v_loop,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,v_loop,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,letter_marking,unplanned_stop,mark_position_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,letter_marking,unplanned_stop,mark_legibility_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,letter_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,letter_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,centerstrip_csu,unplanned_stop,center_strip_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,centerstrip_csu,unplanned_stop,csu_cycle_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,centerstrip_csu,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,centerstrip_csu,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,teza_transfer_ribbon_marking,unplanned_stop,incomplete_ribbon_transfer,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,teza_transfer_ribbon_marking,unplanned_stop,ribbon_feed_fault,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,teza_transfer_ribbon_marking,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,teza_transfer_ribbon_marking,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,cutting_stripping,unplanned_stop,cut_length_deviation,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,cutting_stripping,unplanned_stop,incomplete_cut,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,cutting_stripping,unplanned_stop,strip_quality_defect,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,cutting_stripping,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,cutting_stripping,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1
+SIM-CONFIG-05,SIM-CUT-05,collection_machine,unplanned_stop,passive_offloader_issue,Investigate recorded symptom; log simulated corrective action,1
+SIM-CONFIG-05,SIM-CUT-05,collection_machine,setup,planned_changeover,Complete simulated setup and verify sample,1
+SIM-CONFIG-05,SIM-CUT-05,collection_machine,quality_check,scheduled_sample_inspection,Record simulated sample inspection result,1

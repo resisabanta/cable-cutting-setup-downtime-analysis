@@ -1,0 +1,50 @@
+name: Validate Python and PostgreSQL
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: machine_downtime_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      PGHOST: localhost
+      PGPORT: 5432
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      PGDATABASE: machine_downtime_ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test Python data integrity
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce sample data and reports
+        run: |
+          python generate_data.py
+          python analyze_data.py
+          git diff --exit-code -- data/ reports/
+      - name: Install PostgreSQL client
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Create schema and load the fixture
+        run: |
+          psql -X -v ON_ERROR_STOP=1 -f sql/schema.sql
+          psql -X -v ON_ERROR_STOP=1 -f sql/load_data.sql
+      - name: Check SQL against Python and reject invalid inserts
+        run: python scripts/verify_postgres.py

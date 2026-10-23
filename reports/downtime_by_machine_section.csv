@@ -1,0 +1,8 @@
+machine_section,stop_count,downtime_minutes,mean_stop_minutes,downtime_share_percent,cumulative_share_percent
+cable_feeder,101,2350,23.27,17.12,17.12
+cutting_stripping,105,2177,20.73,15.86,32.97
+letter_marking,95,2167,22.81,15.78,48.75
+collection_machine,97,2106,21.71,15.34,64.09
+v_loop,89,2080,23.37,15.15,79.24
+teza_transfer_ribbon_marking,85,1956,23.01,14.25,93.49
+centerstrip_csu,43,894,20.79,6.51,100.0

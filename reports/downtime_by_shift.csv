@@ -1,0 +1,3 @@
+shift,stop_count,downtime_minutes,mean_stop_minutes,downtime_share_percent,cumulative_share_percent
+morning,312,6892,22.09,50.2,50.2
+night,303,6838,22.57,49.8,100.0

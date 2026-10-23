@@ -1,0 +1,1001 @@
+event_id,machine_id,configuration_id,machine_section,shift,shift_date,event_type,cause,start_time,end_time,duration_minutes,action_taken
+EVT-00001,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-01,unplanned_stop,mark_position_issue,2026-09-01T06:00,2026-09-01T06:22,22,Investigate recorded symptom; log simulated corrective action
+EVT-00002,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-01,setup,planned_changeover,2026-09-01T07:50,2026-09-01T08:12,22,Complete simulated setup and verify sample
+EVT-00003,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-01,unplanned_stop,loop_tension_variation,2026-09-01T07:54,2026-09-01T08:13,19,Investigate recorded symptom; log simulated corrective action
+EVT-00004,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-01,setup,planned_changeover,2026-09-01T09:05,2026-09-01T09:21,16,Complete simulated setup and verify sample
+EVT-00005,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-01,setup,planned_changeover,2026-09-01T09:26,2026-09-01T09:45,19,Complete simulated setup and verify sample
+EVT-00006,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-01,unplanned_stop,cable_path_issue,2026-09-01T09:29,2026-09-01T09:35,6,Investigate recorded symptom; log simulated corrective action
+EVT-00007,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-01,unplanned_stop,loop_tension_variation,2026-09-01T10:10,2026-09-01T10:39,29,Investigate recorded symptom; log simulated corrective action
+EVT-00008,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-01,unplanned_stop,csu_cycle_fault,2026-09-01T11:18,2026-09-01T11:28,10,Investigate recorded symptom; log simulated corrective action
+EVT-00009,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-01,unplanned_stop,ribbon_feed_fault,2026-09-01T11:29,2026-09-01T11:55,26,Investigate recorded symptom; log simulated corrective action
+EVT-00010,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-01,unplanned_stop,cut_length_deviation,2026-09-01T11:49,2026-09-01T12:06,17,Investigate recorded symptom; log simulated corrective action
+EVT-00011,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-01,setup,planned_changeover,2026-09-01T12:09,2026-09-01T12:42,33,Complete simulated setup and verify sample
+EVT-00012,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-01,unplanned_stop,active_offloader_issue,2026-09-01T13:10,2026-09-01T13:34,24,Investigate recorded symptom; log simulated corrective action
+EVT-00013,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-01,setup,planned_changeover,2026-09-01T13:17,2026-09-01T13:33,16,Complete simulated setup and verify sample
+EVT-00014,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-01,unplanned_stop,passive_offloader_issue,2026-09-01T15:25,2026-09-01T16:03,38,Investigate recorded symptom; log simulated corrective action
+EVT-00015,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-01,unplanned_stop,strip_quality_defect,2026-09-01T15:26,2026-09-01T15:52,26,Investigate recorded symptom; log simulated corrective action
+EVT-00016,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-01,unplanned_stop,center_strip_defect,2026-09-01T17:34,2026-09-01T17:57,23,Investigate recorded symptom; log simulated corrective action
+EVT-00017,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-01,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-01T18:09,2026-09-01T18:44,35,Investigate recorded symptom; log simulated corrective action
+EVT-00018,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-01,unplanned_stop,mark_legibility_issue,2026-09-01T20:26,2026-09-01T20:39,13,Investigate recorded symptom; log simulated corrective action
+EVT-00019,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-01,setup,planned_changeover,2026-09-01T20:59,2026-09-01T21:27,28,Complete simulated setup and verify sample
+EVT-00020,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-01,unplanned_stop,cable_path_issue,2026-09-01T21:04,2026-09-01T21:24,20,Investigate recorded symptom; log simulated corrective action
+EVT-00021,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-01,setup,planned_changeover,2026-09-01T21:10,2026-09-01T21:18,8,Complete simulated setup and verify sample
+EVT-00022,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-01,unplanned_stop,buffer_signal_issue,2026-09-01T22:09,2026-09-01T22:38,29,Investigate recorded symptom; log simulated corrective action
+EVT-00023,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-01,unplanned_stop,mark_position_issue,2026-09-01T22:47,2026-09-01T23:04,17,Investigate recorded symptom; log simulated corrective action
+EVT-00024,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-01,setup,planned_changeover,2026-09-02T00:11,2026-09-02T00:27,16,Complete simulated setup and verify sample
+EVT-00025,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-01,setup,planned_changeover,2026-09-02T00:31,2026-09-02T01:01,30,Complete simulated setup and verify sample
+EVT-00026,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-01,setup,planned_changeover,2026-09-02T00:35,2026-09-02T00:49,14,Complete simulated setup and verify sample
+EVT-00027,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-01,unplanned_stop,incomplete_ribbon_transfer,2026-09-02T00:38,2026-09-02T01:01,23,Investigate recorded symptom; log simulated corrective action
+EVT-00028,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-01,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-02T01:56,2026-09-02T02:06,10,Investigate recorded symptom; log simulated corrective action
+EVT-00029,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-01,unplanned_stop,cable_path_issue,2026-09-02T03:02,2026-09-02T03:05,3,Investigate recorded symptom; log simulated corrective action
+EVT-00030,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-01,quality_check,scheduled_sample_inspection,2026-09-02T03:49,2026-09-02T04:16,27,Record simulated sample inspection result
+EVT-00031,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-01,setup,planned_changeover,2026-09-02T04:34,2026-09-02T04:40,6,Complete simulated setup and verify sample
+EVT-00032,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-02,unplanned_stop,wirestacker_stacking_issue,2026-09-02T06:03,2026-09-02T06:23,20,Investigate recorded symptom; log simulated corrective action
+EVT-00033,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-02,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-02T06:38,2026-09-02T07:15,37,Investigate recorded symptom; log simulated corrective action
+EVT-00034,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-02,unplanned_stop,passive_offloader_issue,2026-09-02T07:41,2026-09-02T07:47,6,Investigate recorded symptom; log simulated corrective action
+EVT-00035,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-02,unplanned_stop,passive_offloader_issue,2026-09-02T08:37,2026-09-02T08:49,12,Investigate recorded symptom; log simulated corrective action
+EVT-00036,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-02T08:54,2026-09-02T09:11,17,Record simulated sample inspection result
+EVT-00037,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-02,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-02T11:25,2026-09-02T11:54,29,Investigate recorded symptom; log simulated corrective action
+EVT-00038,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-02,unplanned_stop,mark_legibility_issue,2026-09-02T12:45,2026-09-02T13:13,28,Investigate recorded symptom; log simulated corrective action
+EVT-00039,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-02T13:13,2026-09-02T13:22,9,Record simulated sample inspection result
+EVT-00040,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-02,unplanned_stop,cable_path_issue,2026-09-02T13:26,2026-09-02T13:45,19,Investigate recorded symptom; log simulated corrective action
+EVT-00041,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-02T15:36,2026-09-02T15:54,18,Record simulated sample inspection result
+EVT-00042,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-02,unplanned_stop,loop_tension_variation,2026-09-02T15:46,2026-09-02T16:21,35,Investigate recorded symptom; log simulated corrective action
+EVT-00043,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-02T17:02,2026-09-02T17:15,13,Record simulated sample inspection result
+EVT-00044,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-02,unplanned_stop,passive_offloader_issue,2026-09-02T17:17,2026-09-02T17:24,7,Investigate recorded symptom; log simulated corrective action
+EVT-00045,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-02,setup,planned_changeover,2026-09-02T17:23,2026-09-02T17:55,32,Complete simulated setup and verify sample
+EVT-00046,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-02,setup,planned_changeover,2026-09-02T18:06,2026-09-02T18:32,26,Complete simulated setup and verify sample
+EVT-00047,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-02,unplanned_stop,loop_tension_variation,2026-09-02T18:22,2026-09-02T18:45,23,Investigate recorded symptom; log simulated corrective action
+EVT-00048,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-02T19:01,2026-09-02T19:26,25,Record simulated sample inspection result
+EVT-00049,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-02,unplanned_stop,strip_quality_defect,2026-09-02T19:42,2026-09-02T20:03,21,Investigate recorded symptom; log simulated corrective action
+EVT-00050,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-02,unplanned_stop,passive_offloader_issue,2026-09-02T19:51,2026-09-02T19:59,8,Investigate recorded symptom; log simulated corrective action
+EVT-00051,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-02,setup,planned_changeover,2026-09-02T20:34,2026-09-02T20:52,18,Complete simulated setup and verify sample
+EVT-00052,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-02,unplanned_stop,mark_legibility_issue,2026-09-02T21:09,2026-09-02T21:25,16,Investigate recorded symptom; log simulated corrective action
+EVT-00053,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-02,setup,planned_changeover,2026-09-02T21:28,2026-09-02T21:57,29,Complete simulated setup and verify sample
+EVT-00054,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-02,unplanned_stop,csu_cycle_fault,2026-09-02T21:31,2026-09-02T22:00,29,Investigate recorded symptom; log simulated corrective action
+EVT-00055,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-02,setup,planned_changeover,2026-09-02T21:54,2026-09-02T22:23,29,Complete simulated setup and verify sample
+EVT-00056,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-02,setup,planned_changeover,2026-09-02T22:24,2026-09-02T22:39,15,Complete simulated setup and verify sample
+EVT-00057,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-02,unplanned_stop,incomplete_cut,2026-09-02T23:41,2026-09-02T23:45,4,Investigate recorded symptom; log simulated corrective action
+EVT-00058,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-02,unplanned_stop,wirestacker_stacking_issue,2026-09-02T23:58,2026-09-03T00:35,37,Investigate recorded symptom; log simulated corrective action
+EVT-00059,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-02,unplanned_stop,incomplete_ribbon_transfer,2026-09-03T00:18,2026-09-03T00:39,21,Investigate recorded symptom; log simulated corrective action
+EVT-00060,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-02,setup,planned_changeover,2026-09-03T00:42,2026-09-03T00:50,8,Complete simulated setup and verify sample
+EVT-00061,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-02,unplanned_stop,mark_legibility_issue,2026-09-03T01:56,2026-09-03T02:16,20,Investigate recorded symptom; log simulated corrective action
+EVT-00062,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-02,quality_check,scheduled_sample_inspection,2026-09-03T02:56,2026-09-03T03:21,25,Record simulated sample inspection result
+EVT-00063,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-02,unplanned_stop,strip_quality_defect,2026-09-03T03:58,2026-09-03T04:04,6,Investigate recorded symptom; log simulated corrective action
+EVT-00064,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-02,setup,planned_changeover,2026-09-03T04:57,2026-09-03T05:07,10,Complete simulated setup and verify sample
+EVT-00065,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-02,setup,planned_changeover,2026-09-03T05:07,2026-09-03T05:15,8,Complete simulated setup and verify sample
+EVT-00066,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-02,setup,planned_changeover,2026-09-03T05:22,2026-09-03T05:55,33,Complete simulated setup and verify sample
+EVT-00067,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-03,unplanned_stop,feed_interruption,2026-09-03T06:55,2026-09-03T07:03,8,Investigate recorded symptom; log simulated corrective action
+EVT-00068,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-03,unplanned_stop,strip_quality_defect,2026-09-03T07:33,2026-09-03T08:06,33,Investigate recorded symptom; log simulated corrective action
+EVT-00069,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-03T08:24,2026-09-03T08:43,19,Record simulated sample inspection result
+EVT-00070,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-03,setup,planned_changeover,2026-09-03T09:59,2026-09-03T10:18,19,Complete simulated setup and verify sample
+EVT-00071,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-03T10:03,2026-09-03T10:31,28,Record simulated sample inspection result
+EVT-00072,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-03,unplanned_stop,mark_legibility_issue,2026-09-03T10:30,2026-09-03T10:47,17,Investigate recorded symptom; log simulated corrective action
+EVT-00073,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-03,unplanned_stop,cable_path_issue,2026-09-03T11:07,2026-09-03T11:30,23,Investigate recorded symptom; log simulated corrective action
+EVT-00074,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-03,unplanned_stop,ribbon_feed_fault,2026-09-03T11:44,2026-09-03T12:17,33,Investigate recorded symptom; log simulated corrective action
+EVT-00075,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-03,unplanned_stop,active_offloader_issue,2026-09-03T13:48,2026-09-03T13:59,11,Investigate recorded symptom; log simulated corrective action
+EVT-00076,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-03T14:00,2026-09-03T14:19,19,Record simulated sample inspection result
+EVT-00077,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-03T14:42,2026-09-03T14:54,12,Record simulated sample inspection result
+EVT-00078,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-03,unplanned_stop,cable_path_issue,2026-09-03T15:10,2026-09-03T15:19,9,Investigate recorded symptom; log simulated corrective action
+EVT-00079,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-03,unplanned_stop,mark_legibility_issue,2026-09-03T15:27,2026-09-03T15:51,24,Investigate recorded symptom; log simulated corrective action
+EVT-00080,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-03,setup,planned_changeover,2026-09-03T15:45,2026-09-03T15:52,7,Complete simulated setup and verify sample
+EVT-00081,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-03,unplanned_stop,cable_path_issue,2026-09-03T16:06,2026-09-03T16:34,28,Investigate recorded symptom; log simulated corrective action
+EVT-00082,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-03,unplanned_stop,incomplete_cut,2026-09-03T16:48,2026-09-03T17:19,31,Investigate recorded symptom; log simulated corrective action
+EVT-00083,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-03,unplanned_stop,csu_cycle_fault,2026-09-03T17:27,2026-09-03T17:33,6,Investigate recorded symptom; log simulated corrective action
+EVT-00084,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-03T18:44,2026-09-03T18:57,13,Record simulated sample inspection result
+EVT-00085,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-03,unplanned_stop,incomplete_ribbon_transfer,2026-09-03T18:57,2026-09-03T19:02,5,Investigate recorded symptom; log simulated corrective action
+EVT-00086,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-03,unplanned_stop,active_offloader_issue,2026-09-03T19:44,2026-09-03T20:11,27,Investigate recorded symptom; log simulated corrective action
+EVT-00087,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-03,unplanned_stop,incomplete_ribbon_transfer,2026-09-03T20:41,2026-09-03T20:51,10,Investigate recorded symptom; log simulated corrective action
+EVT-00088,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-03,unplanned_stop,strip_quality_defect,2026-09-03T21:41,2026-09-03T22:02,21,Investigate recorded symptom; log simulated corrective action
+EVT-00089,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-03,unplanned_stop,mark_position_issue,2026-09-03T22:42,2026-09-03T22:55,13,Investigate recorded symptom; log simulated corrective action
+EVT-00090,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-03,setup,planned_changeover,2026-09-03T23:06,2026-09-03T23:12,6,Complete simulated setup and verify sample
+EVT-00091,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-03,setup,planned_changeover,2026-09-04T00:22,2026-09-04T00:39,17,Complete simulated setup and verify sample
+EVT-00092,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-04T00:37,2026-09-04T00:44,7,Record simulated sample inspection result
+EVT-00093,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-03,setup,rotary_box_calibration,2026-09-04T00:48,2026-09-04T01:01,13,Complete simulated setup and verify sample
+EVT-00094,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-03,quality_check,scheduled_sample_inspection,2026-09-04T00:55,2026-09-04T01:01,6,Record simulated sample inspection result
+EVT-00095,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-03,unplanned_stop,loop_tension_variation,2026-09-04T01:50,2026-09-04T02:08,18,Investigate recorded symptom; log simulated corrective action
+EVT-00096,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-03,unplanned_stop,mark_legibility_issue,2026-09-04T02:01,2026-09-04T02:35,34,Investigate recorded symptom; log simulated corrective action
+EVT-00097,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-03,unplanned_stop,cable_path_issue,2026-09-04T02:17,2026-09-04T02:25,8,Investigate recorded symptom; log simulated corrective action
+EVT-00098,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-03,setup,planned_changeover,2026-09-04T02:42,2026-09-04T03:02,20,Complete simulated setup and verify sample
+EVT-00099,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-03,unplanned_stop,center_strip_defect,2026-09-04T04:11,2026-09-04T04:49,38,Investigate recorded symptom; log simulated corrective action
+EVT-00100,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-03,unplanned_stop,wirestacker_stacking_issue,2026-09-04T04:57,2026-09-04T05:16,19,Investigate recorded symptom; log simulated corrective action
+EVT-00101,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-04,unplanned_stop,incomplete_ribbon_transfer,2026-09-04T06:51,2026-09-04T07:03,12,Investigate recorded symptom; log simulated corrective action
+EVT-00102,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-04,unplanned_stop,mark_legibility_issue,2026-09-04T07:34,2026-09-04T07:58,24,Investigate recorded symptom; log simulated corrective action
+EVT-00103,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-04,unplanned_stop,paper_taping_issue,2026-09-04T07:43,2026-09-04T08:19,36,Investigate recorded symptom; log simulated corrective action
+EVT-00104,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-04,unplanned_stop,loop_tension_variation,2026-09-04T08:39,2026-09-04T09:19,40,Investigate recorded symptom; log simulated corrective action
+EVT-00105,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-04,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-04T09:39,2026-09-04T09:52,13,Investigate recorded symptom; log simulated corrective action
+EVT-00106,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-04,unplanned_stop,buffer_signal_issue,2026-09-04T10:20,2026-09-04T10:49,29,Investigate recorded symptom; log simulated corrective action
+EVT-00107,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-04,setup,planned_changeover,2026-09-04T10:56,2026-09-04T11:17,21,Complete simulated setup and verify sample
+EVT-00108,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-04,unplanned_stop,active_offloader_issue,2026-09-04T11:08,2026-09-04T11:26,18,Investigate recorded symptom; log simulated corrective action
+EVT-00109,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-04,unplanned_stop,center_strip_defect,2026-09-04T11:26,2026-09-04T12:04,38,Investigate recorded symptom; log simulated corrective action
+EVT-00110,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-04,quality_check,scheduled_sample_inspection,2026-09-04T12:29,2026-09-04T13:01,32,Record simulated sample inspection result
+EVT-00111,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-04,unplanned_stop,buffer_signal_issue,2026-09-04T12:32,2026-09-04T12:38,6,Investigate recorded symptom; log simulated corrective action
+EVT-00112,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-04,unplanned_stop,wirestacker_stacking_issue,2026-09-04T12:55,2026-09-04T13:30,35,Investigate recorded symptom; log simulated corrective action
+EVT-00113,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-04,unplanned_stop,ribbon_feed_fault,2026-09-04T13:15,2026-09-04T13:54,39,Investigate recorded symptom; log simulated corrective action
+EVT-00114,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-04,unplanned_stop,cut_length_deviation,2026-09-04T13:36,2026-09-04T14:05,29,Investigate recorded symptom; log simulated corrective action
+EVT-00115,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-04,setup,planned_changeover,2026-09-04T14:53,2026-09-04T15:08,15,Complete simulated setup and verify sample
+EVT-00116,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-04,unplanned_stop,cut_length_deviation,2026-09-04T15:32,2026-09-04T16:07,35,Investigate recorded symptom; log simulated corrective action
+EVT-00117,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-04,unplanned_stop,cable_path_issue,2026-09-04T18:12,2026-09-04T18:26,14,Investigate recorded symptom; log simulated corrective action
+EVT-00118,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-04,unplanned_stop,incomplete_ribbon_transfer,2026-09-04T18:29,2026-09-04T19:03,34,Investigate recorded symptom; log simulated corrective action
+EVT-00119,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-04,unplanned_stop,buffer_signal_issue,2026-09-04T18:43,2026-09-04T19:07,24,Investigate recorded symptom; log simulated corrective action
+EVT-00120,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-04,unplanned_stop,ribbon_feed_fault,2026-09-04T19:03,2026-09-04T19:10,7,Investigate recorded symptom; log simulated corrective action
+EVT-00121,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-04,unplanned_stop,incomplete_cut,2026-09-04T19:38,2026-09-04T20:01,23,Investigate recorded symptom; log simulated corrective action
+EVT-00122,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-04,quality_check,scheduled_sample_inspection,2026-09-04T20:18,2026-09-04T20:52,34,Record simulated sample inspection result
+EVT-00123,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-04,unplanned_stop,cable_path_issue,2026-09-04T22:48,2026-09-04T23:13,25,Investigate recorded symptom; log simulated corrective action
+EVT-00124,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-04,quality_check,scheduled_sample_inspection,2026-09-04T22:55,2026-09-04T23:13,18,Record simulated sample inspection result
+EVT-00125,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-04,unplanned_stop,passive_offloader_issue,2026-09-05T01:39,2026-09-05T01:51,12,Investigate recorded symptom; log simulated corrective action
+EVT-00126,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-04,setup,planned_changeover,2026-09-05T01:45,2026-09-05T02:07,22,Complete simulated setup and verify sample
+EVT-00127,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-04,setup,planned_changeover,2026-09-05T03:20,2026-09-05T03:37,17,Complete simulated setup and verify sample
+EVT-00128,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-04,quality_check,scheduled_sample_inspection,2026-09-05T04:06,2026-09-05T04:26,20,Record simulated sample inspection result
+EVT-00129,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-05,unplanned_stop,center_strip_defect,2026-09-05T08:44,2026-09-05T09:03,19,Investigate recorded symptom; log simulated corrective action
+EVT-00130,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-05,quality_check,scheduled_sample_inspection,2026-09-05T09:19,2026-09-05T09:39,20,Record simulated sample inspection result
+EVT-00131,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-05,unplanned_stop,cable_path_issue,2026-09-05T09:22,2026-09-05T09:39,17,Investigate recorded symptom; log simulated corrective action
+EVT-00132,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-05,setup,planned_changeover,2026-09-05T09:30,2026-09-05T09:56,26,Complete simulated setup and verify sample
+EVT-00133,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-05,unplanned_stop,cable_path_issue,2026-09-05T09:48,2026-09-05T10:24,36,Investigate recorded symptom; log simulated corrective action
+EVT-00134,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-05,quality_check,scheduled_sample_inspection,2026-09-05T10:15,2026-09-05T10:47,32,Record simulated sample inspection result
+EVT-00135,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-05,unplanned_stop,mark_position_issue,2026-09-05T11:07,2026-09-05T11:48,41,Investigate recorded symptom; log simulated corrective action
+EVT-00136,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-05,unplanned_stop,incomplete_ribbon_transfer,2026-09-05T12:37,2026-09-05T13:13,36,Investigate recorded symptom; log simulated corrective action
+EVT-00137,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-05,unplanned_stop,wirestacker_stacking_issue,2026-09-05T13:01,2026-09-05T13:10,9,Investigate recorded symptom; log simulated corrective action
+EVT-00138,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-05,setup,planned_changeover,2026-09-05T13:20,2026-09-05T13:54,34,Complete simulated setup and verify sample
+EVT-00139,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-05,unplanned_stop,feed_interruption,2026-09-05T13:28,2026-09-05T13:48,20,Investigate recorded symptom; log simulated corrective action
+EVT-00140,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-05,setup,planned_changeover,2026-09-05T14:04,2026-09-05T14:16,12,Complete simulated setup and verify sample
+EVT-00141,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-05,unplanned_stop,incomplete_cut,2026-09-05T14:19,2026-09-05T14:28,9,Investigate recorded symptom; log simulated corrective action
+EVT-00142,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-05,unplanned_stop,mark_position_issue,2026-09-05T15:12,2026-09-05T15:27,15,Investigate recorded symptom; log simulated corrective action
+EVT-00143,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-05,unplanned_stop,ribbon_feed_fault,2026-09-05T15:19,2026-09-05T15:32,13,Investigate recorded symptom; log simulated corrective action
+EVT-00144,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-05,unplanned_stop,cut_length_deviation,2026-09-05T16:07,2026-09-05T16:14,7,Investigate recorded symptom; log simulated corrective action
+EVT-00145,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-05,setup,planned_changeover,2026-09-05T16:11,2026-09-05T16:35,24,Complete simulated setup and verify sample
+EVT-00146,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-05,unplanned_stop,mark_position_issue,2026-09-05T16:26,2026-09-05T17:04,38,Investigate recorded symptom; log simulated corrective action
+EVT-00147,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-05,unplanned_stop,ribbon_feed_fault,2026-09-05T17:09,2026-09-05T17:46,37,Investigate recorded symptom; log simulated corrective action
+EVT-00148,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-05,setup,planned_changeover,2026-09-05T17:19,2026-09-05T17:51,32,Complete simulated setup and verify sample
+EVT-00149,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-05,setup,planned_changeover,2026-09-05T17:52,2026-09-05T18:00,8,Complete simulated setup and verify sample
+EVT-00150,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-05,setup,planned_changeover,2026-09-05T18:09,2026-09-05T18:36,27,Complete simulated setup and verify sample
+EVT-00151,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-05,setup,planned_changeover,2026-09-05T18:50,2026-09-05T18:55,5,Complete simulated setup and verify sample
+EVT-00152,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-05,unplanned_stop,incomplete_ribbon_transfer,2026-09-05T20:31,2026-09-05T21:00,29,Investigate recorded symptom; log simulated corrective action
+EVT-00153,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-05,unplanned_stop,csu_cycle_fault,2026-09-05T20:32,2026-09-05T20:38,6,Investigate recorded symptom; log simulated corrective action
+EVT-00154,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-05,unplanned_stop,ribbon_feed_fault,2026-09-05T21:12,2026-09-05T21:32,20,Investigate recorded symptom; log simulated corrective action
+EVT-00155,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-05,unplanned_stop,csu_cycle_fault,2026-09-05T22:08,2026-09-05T22:50,42,Investigate recorded symptom; log simulated corrective action
+EVT-00156,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-05,unplanned_stop,mark_position_issue,2026-09-05T22:38,2026-09-05T23:16,38,Investigate recorded symptom; log simulated corrective action
+EVT-00157,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-05,quality_check,scheduled_sample_inspection,2026-09-05T22:47,2026-09-05T22:54,7,Record simulated sample inspection result
+EVT-00158,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-05,unplanned_stop,buffer_signal_issue,2026-09-05T22:50,2026-09-05T23:10,20,Investigate recorded symptom; log simulated corrective action
+EVT-00159,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-05,unplanned_stop,buffer_signal_issue,2026-09-05T23:23,2026-09-05T23:55,32,Investigate recorded symptom; log simulated corrective action
+EVT-00160,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-05,setup,planned_changeover,2026-09-06T01:13,2026-09-06T01:39,26,Complete simulated setup and verify sample
+EVT-00161,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-05,unplanned_stop,incomplete_cut,2026-09-06T01:20,2026-09-06T01:58,38,Investigate recorded symptom; log simulated corrective action
+EVT-00162,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-05,unplanned_stop,mark_legibility_issue,2026-09-06T01:40,2026-09-06T02:21,41,Investigate recorded symptom; log simulated corrective action
+EVT-00163,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-05,setup,planned_changeover,2026-09-06T01:54,2026-09-06T02:21,27,Complete simulated setup and verify sample
+EVT-00164,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-05,setup,planned_changeover,2026-09-06T03:03,2026-09-06T03:16,13,Complete simulated setup and verify sample
+EVT-00165,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-05,setup,planned_changeover,2026-09-06T03:36,2026-09-06T03:59,23,Complete simulated setup and verify sample
+EVT-00166,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-05,setup,planned_changeover,2026-09-06T05:11,2026-09-06T05:23,12,Complete simulated setup and verify sample
+EVT-00167,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-06,unplanned_stop,strip_quality_defect,2026-09-06T06:04,2026-09-06T06:34,30,Investigate recorded symptom; log simulated corrective action
+EVT-00168,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-06,unplanned_stop,buffer_signal_issue,2026-09-06T07:06,2026-09-06T07:28,22,Investigate recorded symptom; log simulated corrective action
+EVT-00169,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-06,unplanned_stop,loop_tension_variation,2026-09-06T08:59,2026-09-06T09:13,14,Investigate recorded symptom; log simulated corrective action
+EVT-00170,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-06,unplanned_stop,strip_quality_defect,2026-09-06T09:08,2026-09-06T09:37,29,Investigate recorded symptom; log simulated corrective action
+EVT-00171,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-06,unplanned_stop,feed_interruption,2026-09-06T10:42,2026-09-06T10:45,3,Investigate recorded symptom; log simulated corrective action
+EVT-00172,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-06,unplanned_stop,incomplete_ribbon_transfer,2026-09-06T12:28,2026-09-06T12:34,6,Investigate recorded symptom; log simulated corrective action
+EVT-00173,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-06T12:42,2026-09-06T13:16,34,Record simulated sample inspection result
+EVT-00174,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-06,unplanned_stop,passive_offloader_issue,2026-09-06T12:56,2026-09-06T13:14,18,Investigate recorded symptom; log simulated corrective action
+EVT-00175,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-06,unplanned_stop,incomplete_cut,2026-09-06T13:03,2026-09-06T13:32,29,Investigate recorded symptom; log simulated corrective action
+EVT-00176,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-06,setup,planned_changeover,2026-09-06T13:44,2026-09-06T14:02,18,Complete simulated setup and verify sample
+EVT-00177,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-06,unplanned_stop,incomplete_cut,2026-09-06T14:13,2026-09-06T14:51,38,Investigate recorded symptom; log simulated corrective action
+EVT-00178,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-06,setup,planned_changeover,2026-09-06T15:37,2026-09-06T15:51,14,Complete simulated setup and verify sample
+EVT-00179,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-06T15:44,2026-09-06T16:15,31,Record simulated sample inspection result
+EVT-00180,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-06,setup,planned_changeover,2026-09-06T16:21,2026-09-06T16:46,25,Complete simulated setup and verify sample
+EVT-00181,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-06,setup,planned_changeover,2026-09-06T17:02,2026-09-06T17:18,16,Complete simulated setup and verify sample
+EVT-00182,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-06,setup,planned_changeover,2026-09-06T18:19,2026-09-06T18:47,28,Complete simulated setup and verify sample
+EVT-00183,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-06,unplanned_stop,strip_quality_defect,2026-09-06T18:32,2026-09-06T18:43,11,Investigate recorded symptom; log simulated corrective action
+EVT-00184,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-06T18:52,2026-09-06T19:02,10,Record simulated sample inspection result
+EVT-00185,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-06,unplanned_stop,mark_legibility_issue,2026-09-06T20:12,2026-09-06T20:50,38,Investigate recorded symptom; log simulated corrective action
+EVT-00186,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-06,unplanned_stop,incomplete_ribbon_transfer,2026-09-06T20:23,2026-09-06T20:32,9,Investigate recorded symptom; log simulated corrective action
+EVT-00187,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-06,setup,planned_changeover,2026-09-06T21:16,2026-09-06T21:36,20,Complete simulated setup and verify sample
+EVT-00188,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-06,unplanned_stop,mark_legibility_issue,2026-09-06T21:48,2026-09-06T21:54,6,Investigate recorded symptom; log simulated corrective action
+EVT-00189,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-06T22:19,2026-09-06T22:46,27,Record simulated sample inspection result
+EVT-00190,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-06T22:56,2026-09-06T23:27,31,Record simulated sample inspection result
+EVT-00191,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-06,unplanned_stop,incomplete_ribbon_transfer,2026-09-06T23:00,2026-09-06T23:38,38,Investigate recorded symptom; log simulated corrective action
+EVT-00192,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-06,unplanned_stop,center_strip_defect,2026-09-06T23:15,2026-09-06T23:46,31,Investigate recorded symptom; log simulated corrective action
+EVT-00193,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-07T00:47,2026-09-07T01:02,15,Record simulated sample inspection result
+EVT-00194,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-06,unplanned_stop,csu_cycle_fault,2026-09-07T01:36,2026-09-07T02:02,26,Investigate recorded symptom; log simulated corrective action
+EVT-00195,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-06,unplanned_stop,mark_legibility_issue,2026-09-07T02:30,2026-09-07T02:56,26,Investigate recorded symptom; log simulated corrective action
+EVT-00196,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-06,unplanned_stop,csu_cycle_fault,2026-09-07T02:46,2026-09-07T03:00,14,Investigate recorded symptom; log simulated corrective action
+EVT-00197,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-06,unplanned_stop,cut_length_deviation,2026-09-07T03:10,2026-09-07T03:37,27,Investigate recorded symptom; log simulated corrective action
+EVT-00198,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-06,unplanned_stop,active_offloader_issue,2026-09-07T03:16,2026-09-07T03:50,34,Investigate recorded symptom; log simulated corrective action
+EVT-00199,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-06,quality_check,scheduled_sample_inspection,2026-09-07T03:52,2026-09-07T04:26,34,Record simulated sample inspection result
+EVT-00200,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-06,unplanned_stop,active_offloader_issue,2026-09-07T03:59,2026-09-07T04:09,10,Investigate recorded symptom; log simulated corrective action
+EVT-00201,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-06,unplanned_stop,cut_length_deviation,2026-09-07T04:25,2026-09-07T04:40,15,Investigate recorded symptom; log simulated corrective action
+EVT-00202,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-07,setup,planned_changeover,2026-09-07T07:39,2026-09-07T07:59,20,Complete simulated setup and verify sample
+EVT-00203,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-07,unplanned_stop,loop_tension_variation,2026-09-07T07:55,2026-09-07T08:15,20,Investigate recorded symptom; log simulated corrective action
+EVT-00204,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-07,unplanned_stop,loop_tension_variation,2026-09-07T07:57,2026-09-07T08:16,19,Investigate recorded symptom; log simulated corrective action
+EVT-00205,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-07,unplanned_stop,cut_length_deviation,2026-09-07T08:33,2026-09-07T08:55,22,Investigate recorded symptom; log simulated corrective action
+EVT-00206,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-07T08:48,2026-09-07T09:17,29,Record simulated sample inspection result
+EVT-00207,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-07,setup,planned_changeover,2026-09-07T09:34,2026-09-07T09:45,11,Complete simulated setup and verify sample
+EVT-00208,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-07,unplanned_stop,mark_legibility_issue,2026-09-07T09:41,2026-09-07T09:55,14,Investigate recorded symptom; log simulated corrective action
+EVT-00209,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-07,unplanned_stop,door_locking_system_issue,2026-09-07T10:29,2026-09-07T11:06,37,Investigate recorded symptom; log simulated corrective action
+EVT-00210,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-07,unplanned_stop,mark_position_issue,2026-09-07T10:58,2026-09-07T11:24,26,Investigate recorded symptom; log simulated corrective action
+EVT-00211,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-07,setup,planned_changeover,2026-09-07T11:28,2026-09-07T11:44,16,Complete simulated setup and verify sample
+EVT-00212,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-07,unplanned_stop,incomplete_ribbon_transfer,2026-09-07T13:01,2026-09-07T13:27,26,Investigate recorded symptom; log simulated corrective action
+EVT-00213,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-07T13:45,2026-09-07T14:09,24,Record simulated sample inspection result
+EVT-00214,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-07T14:32,2026-09-07T15:05,33,Record simulated sample inspection result
+EVT-00215,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-07T14:50,2026-09-07T14:56,6,Record simulated sample inspection result
+EVT-00216,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-07,unplanned_stop,feed_interruption,2026-09-07T15:54,2026-09-07T16:03,9,Investigate recorded symptom; log simulated corrective action
+EVT-00217,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-07,unplanned_stop,ribbon_feed_fault,2026-09-07T16:13,2026-09-07T16:40,27,Investigate recorded symptom; log simulated corrective action
+EVT-00218,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-07T16:34,2026-09-07T16:46,12,Record simulated sample inspection result
+EVT-00219,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-07,unplanned_stop,cut_length_deviation,2026-09-07T17:41,2026-09-07T17:58,17,Investigate recorded symptom; log simulated corrective action
+EVT-00220,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-07,unplanned_stop,cable_path_issue,2026-09-07T18:22,2026-09-07T18:33,11,Investigate recorded symptom; log simulated corrective action
+EVT-00221,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-07,setup,planned_changeover,2026-09-07T18:59,2026-09-07T19:13,14,Complete simulated setup and verify sample
+EVT-00222,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-07,setup,planned_changeover,2026-09-07T19:07,2026-09-07T19:36,29,Complete simulated setup and verify sample
+EVT-00223,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-07,setup,planned_changeover,2026-09-07T20:50,2026-09-07T21:25,35,Complete simulated setup and verify sample
+EVT-00224,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-07,unplanned_stop,ribbon_feed_fault,2026-09-07T21:14,2026-09-07T21:36,22,Investigate recorded symptom; log simulated corrective action
+EVT-00225,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-07,unplanned_stop,feed_interruption,2026-09-07T21:58,2026-09-07T22:06,8,Investigate recorded symptom; log simulated corrective action
+EVT-00226,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-07,unplanned_stop,cable_path_issue,2026-09-08T01:02,2026-09-08T01:27,25,Investigate recorded symptom; log simulated corrective action
+EVT-00227,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-07,unplanned_stop,incomplete_ribbon_transfer,2026-09-08T01:45,2026-09-08T02:08,23,Investigate recorded symptom; log simulated corrective action
+EVT-00228,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-07,unplanned_stop,buffer_signal_issue,2026-09-08T01:48,2026-09-08T02:16,28,Investigate recorded symptom; log simulated corrective action
+EVT-00229,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-07,setup,planned_changeover,2026-09-08T03:34,2026-09-08T03:55,21,Complete simulated setup and verify sample
+EVT-00230,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-07,unplanned_stop,mark_legibility_issue,2026-09-08T03:51,2026-09-08T04:29,38,Investigate recorded symptom; log simulated corrective action
+EVT-00231,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-08T04:01,2026-09-08T04:36,35,Record simulated sample inspection result
+EVT-00232,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-07,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-08T04:28,2026-09-08T04:58,30,Investigate recorded symptom; log simulated corrective action
+EVT-00233,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-07,quality_check,scheduled_sample_inspection,2026-09-08T04:40,2026-09-08T05:09,29,Record simulated sample inspection result
+EVT-00234,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-08,setup,planned_changeover,2026-09-08T06:03,2026-09-08T06:25,22,Complete simulated setup and verify sample
+EVT-00235,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-08,setup,planned_changeover,2026-09-08T06:52,2026-09-08T07:15,23,Complete simulated setup and verify sample
+EVT-00236,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-08,unplanned_stop,cut_length_deviation,2026-09-08T07:09,2026-09-08T07:15,6,Investigate recorded symptom; log simulated corrective action
+EVT-00237,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-08,unplanned_stop,feed_interruption,2026-09-08T07:18,2026-09-08T07:31,13,Investigate recorded symptom; log simulated corrective action
+EVT-00238,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-08,unplanned_stop,ribbon_feed_fault,2026-09-08T07:32,2026-09-08T07:53,21,Investigate recorded symptom; log simulated corrective action
+EVT-00239,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-08,setup,planned_changeover,2026-09-08T08:03,2026-09-08T08:16,13,Complete simulated setup and verify sample
+EVT-00240,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-08,quality_check,scheduled_sample_inspection,2026-09-08T09:39,2026-09-08T09:53,14,Record simulated sample inspection result
+EVT-00241,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-08,setup,planned_changeover,2026-09-08T10:18,2026-09-08T10:23,5,Complete simulated setup and verify sample
+EVT-00242,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-08,unplanned_stop,loop_tension_variation,2026-09-08T11:52,2026-09-08T12:10,18,Investigate recorded symptom; log simulated corrective action
+EVT-00243,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-08,quality_check,scheduled_sample_inspection,2026-09-08T13:00,2026-09-08T13:10,10,Record simulated sample inspection result
+EVT-00244,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-08,quality_check,scheduled_sample_inspection,2026-09-08T13:03,2026-09-08T13:36,33,Record simulated sample inspection result
+EVT-00245,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-08,setup,planned_changeover,2026-09-08T13:41,2026-09-08T14:15,34,Complete simulated setup and verify sample
+EVT-00246,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-08,setup,planned_changeover,2026-09-08T14:19,2026-09-08T14:52,33,Complete simulated setup and verify sample
+EVT-00247,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-08,unplanned_stop,feed_interruption,2026-09-08T16:54,2026-09-08T17:36,42,Investigate recorded symptom; log simulated corrective action
+EVT-00248,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-08,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-08T18:47,2026-09-08T18:50,3,Investigate recorded symptom; log simulated corrective action
+EVT-00249,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-08,unplanned_stop,buffer_signal_issue,2026-09-08T18:51,2026-09-08T19:09,18,Investigate recorded symptom; log simulated corrective action
+EVT-00250,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-08,setup,planned_changeover,2026-09-08T20:34,2026-09-08T21:04,30,Complete simulated setup and verify sample
+EVT-00251,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-08,unplanned_stop,feed_interruption,2026-09-08T21:16,2026-09-08T21:25,9,Investigate recorded symptom; log simulated corrective action
+EVT-00252,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-08,unplanned_stop,incomplete_ribbon_transfer,2026-09-08T23:12,2026-09-08T23:22,10,Investigate recorded symptom; log simulated corrective action
+EVT-00253,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-08,setup,planned_changeover,2026-09-08T23:16,2026-09-08T23:38,22,Complete simulated setup and verify sample
+EVT-00254,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-08,unplanned_stop,rotary_cut_fault,2026-09-09T00:21,2026-09-09T00:25,4,Investigate recorded symptom; log simulated corrective action
+EVT-00255,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-08,unplanned_stop,feed_interruption,2026-09-09T00:35,2026-09-09T01:01,26,Investigate recorded symptom; log simulated corrective action
+EVT-00256,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-08,setup,planned_changeover,2026-09-09T01:09,2026-09-09T01:30,21,Complete simulated setup and verify sample
+EVT-00257,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-08,unplanned_stop,incomplete_cut,2026-09-09T01:28,2026-09-09T01:33,5,Investigate recorded symptom; log simulated corrective action
+EVT-00258,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-08,quality_check,scheduled_sample_inspection,2026-09-09T01:37,2026-09-09T01:54,17,Record simulated sample inspection result
+EVT-00259,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-08,setup,planned_changeover,2026-09-09T02:06,2026-09-09T02:12,6,Complete simulated setup and verify sample
+EVT-00260,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-08,unplanned_stop,loop_tension_variation,2026-09-09T02:25,2026-09-09T02:36,11,Investigate recorded symptom; log simulated corrective action
+EVT-00261,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-08,unplanned_stop,feed_interruption,2026-09-09T02:33,2026-09-09T02:55,22,Investigate recorded symptom; log simulated corrective action
+EVT-00262,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-08,unplanned_stop,active_offloader_issue,2026-09-09T03:36,2026-09-09T04:17,41,Investigate recorded symptom; log simulated corrective action
+EVT-00263,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-08,setup,planned_changeover,2026-09-09T05:00,2026-09-09T05:07,7,Complete simulated setup and verify sample
+EVT-00264,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,incomplete_ribbon_transfer,2026-09-09T06:16,2026-09-09T06:42,26,Investigate recorded symptom; log simulated corrective action
+EVT-00265,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-09,quality_check,scheduled_sample_inspection,2026-09-09T06:39,2026-09-09T07:02,23,Record simulated sample inspection result
+EVT-00266,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-09,quality_check,scheduled_sample_inspection,2026-09-09T07:02,2026-09-09T07:30,28,Record simulated sample inspection result
+EVT-00267,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-09,quality_check,scheduled_sample_inspection,2026-09-09T08:45,2026-09-09T09:00,15,Record simulated sample inspection result
+EVT-00268,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-09,unplanned_stop,csu_cycle_fault,2026-09-09T08:54,2026-09-09T08:59,5,Investigate recorded symptom; log simulated corrective action
+EVT-00269,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,ribbon_feed_fault,2026-09-09T09:40,2026-09-09T09:44,4,Investigate recorded symptom; log simulated corrective action
+EVT-00270,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,incomplete_ribbon_transfer,2026-09-09T12:12,2026-09-09T12:54,42,Investigate recorded symptom; log simulated corrective action
+EVT-00271,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,incomplete_ribbon_transfer,2026-09-09T12:15,2026-09-09T12:40,25,Investigate recorded symptom; log simulated corrective action
+EVT-00272,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-09,setup,planned_changeover,2026-09-09T12:25,2026-09-09T12:46,21,Complete simulated setup and verify sample
+EVT-00273,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,incomplete_ribbon_transfer,2026-09-09T14:13,2026-09-09T14:26,13,Investigate recorded symptom; log simulated corrective action
+EVT-00274,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-09,unplanned_stop,ribbon_feed_fault,2026-09-09T15:10,2026-09-09T15:45,35,Investigate recorded symptom; log simulated corrective action
+EVT-00275,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-09,setup,planned_changeover,2026-09-09T15:50,2026-09-09T15:57,7,Complete simulated setup and verify sample
+EVT-00276,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-09,unplanned_stop,mark_legibility_issue,2026-09-09T15:58,2026-09-09T16:35,37,Investigate recorded symptom; log simulated corrective action
+EVT-00277,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-09,unplanned_stop,mark_legibility_issue,2026-09-09T17:09,2026-09-09T17:12,3,Investigate recorded symptom; log simulated corrective action
+EVT-00278,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-09,setup,planned_changeover,2026-09-09T18:51,2026-09-09T19:06,15,Complete simulated setup and verify sample
+EVT-00279,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-09,unplanned_stop,loop_tension_variation,2026-09-09T19:19,2026-09-09T19:42,23,Investigate recorded symptom; log simulated corrective action
+EVT-00280,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-09,unplanned_stop,mark_legibility_issue,2026-09-09T20:07,2026-09-09T20:31,24,Investigate recorded symptom; log simulated corrective action
+EVT-00281,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-09,unplanned_stop,wirestacker_stacking_issue,2026-09-09T20:08,2026-09-09T20:46,38,Investigate recorded symptom; log simulated corrective action
+EVT-00282,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-09,unplanned_stop,incomplete_ribbon_transfer,2026-09-09T21:07,2026-09-09T21:46,39,Investigate recorded symptom; log simulated corrective action
+EVT-00283,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-09,unplanned_stop,active_offloader_issue,2026-09-09T22:46,2026-09-09T23:00,14,Investigate recorded symptom; log simulated corrective action
+EVT-00284,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-09,unplanned_stop,cable_path_issue,2026-09-10T00:17,2026-09-10T00:32,15,Investigate recorded symptom; log simulated corrective action
+EVT-00285,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-09,quality_check,scheduled_sample_inspection,2026-09-10T01:05,2026-09-10T01:32,27,Record simulated sample inspection result
+EVT-00286,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-09,setup,planned_changeover,2026-09-10T01:30,2026-09-10T01:42,12,Complete simulated setup and verify sample
+EVT-00287,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-09,unplanned_stop,buffer_signal_issue,2026-09-10T01:33,2026-09-10T01:41,8,Investigate recorded symptom; log simulated corrective action
+EVT-00288,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-09,unplanned_stop,passive_offloader_issue,2026-09-10T01:40,2026-09-10T01:53,13,Investigate recorded symptom; log simulated corrective action
+EVT-00289,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-09,unplanned_stop,buffer_signal_issue,2026-09-10T01:41,2026-09-10T02:07,26,Investigate recorded symptom; log simulated corrective action
+EVT-00290,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-09,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-10T02:24,2026-09-10T02:46,22,Investigate recorded symptom; log simulated corrective action
+EVT-00291,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-09,unplanned_stop,feed_interruption,2026-09-10T02:32,2026-09-10T03:00,28,Investigate recorded symptom; log simulated corrective action
+EVT-00292,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-09,unplanned_stop,cut_length_deviation,2026-09-10T03:35,2026-09-10T04:12,37,Investigate recorded symptom; log simulated corrective action
+EVT-00293,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-10,unplanned_stop,buffer_signal_issue,2026-09-10T06:20,2026-09-10T06:25,5,Investigate recorded symptom; log simulated corrective action
+EVT-00294,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-10,unplanned_stop,cable_path_issue,2026-09-10T06:33,2026-09-10T07:06,33,Investigate recorded symptom; log simulated corrective action
+EVT-00295,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-10,unplanned_stop,loop_tension_variation,2026-09-10T06:33,2026-09-10T06:50,17,Investigate recorded symptom; log simulated corrective action
+EVT-00296,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-10,unplanned_stop,buffer_signal_issue,2026-09-10T08:09,2026-09-10T08:47,38,Investigate recorded symptom; log simulated corrective action
+EVT-00297,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-10,unplanned_stop,incomplete_cut,2026-09-10T08:51,2026-09-10T09:12,21,Investigate recorded symptom; log simulated corrective action
+EVT-00298,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-10,unplanned_stop,cable_path_issue,2026-09-10T10:18,2026-09-10T10:45,27,Investigate recorded symptom; log simulated corrective action
+EVT-00299,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-10,unplanned_stop,cable_path_issue,2026-09-10T10:27,2026-09-10T10:45,18,Investigate recorded symptom; log simulated corrective action
+EVT-00300,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-10,unplanned_stop,cut_length_deviation,2026-09-10T11:07,2026-09-10T11:44,37,Investigate recorded symptom; log simulated corrective action
+EVT-00301,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-10,quality_check,scheduled_sample_inspection,2026-09-10T12:29,2026-09-10T12:58,29,Record simulated sample inspection result
+EVT-00302,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-10,setup,planned_changeover,2026-09-10T12:39,2026-09-10T12:48,9,Complete simulated setup and verify sample
+EVT-00303,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-10,unplanned_stop,csu_cycle_fault,2026-09-10T13:12,2026-09-10T13:41,29,Investigate recorded symptom; log simulated corrective action
+EVT-00304,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-10,unplanned_stop,csu_cycle_fault,2026-09-10T13:13,2026-09-10T13:45,32,Investigate recorded symptom; log simulated corrective action
+EVT-00305,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-10,unplanned_stop,cable_path_issue,2026-09-10T13:45,2026-09-10T14:09,24,Investigate recorded symptom; log simulated corrective action
+EVT-00306,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-10,unplanned_stop,loop_tension_variation,2026-09-10T14:26,2026-09-10T14:32,6,Investigate recorded symptom; log simulated corrective action
+EVT-00307,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-10,unplanned_stop,mark_position_issue,2026-09-10T15:46,2026-09-10T16:07,21,Investigate recorded symptom; log simulated corrective action
+EVT-00308,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-10,unplanned_stop,mark_position_issue,2026-09-10T16:12,2026-09-10T16:20,8,Investigate recorded symptom; log simulated corrective action
+EVT-00309,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-10,unplanned_stop,mark_legibility_issue,2026-09-10T16:41,2026-09-10T17:12,31,Investigate recorded symptom; log simulated corrective action
+EVT-00310,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-10,unplanned_stop,buffer_signal_issue,2026-09-10T17:01,2026-09-10T17:29,28,Investigate recorded symptom; log simulated corrective action
+EVT-00311,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-10,unplanned_stop,door_locking_system_issue,2026-09-10T18:14,2026-09-10T18:28,14,Investigate recorded symptom; log simulated corrective action
+EVT-00312,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-10,setup,planned_changeover,2026-09-10T18:33,2026-09-10T18:45,12,Complete simulated setup and verify sample
+EVT-00313,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-10,unplanned_stop,strip_quality_defect,2026-09-10T20:43,2026-09-10T21:15,32,Investigate recorded symptom; log simulated corrective action
+EVT-00314,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-10,unplanned_stop,buffer_signal_issue,2026-09-10T21:53,2026-09-10T22:18,25,Investigate recorded symptom; log simulated corrective action
+EVT-00315,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-10,unplanned_stop,mark_position_issue,2026-09-10T21:54,2026-09-10T22:21,27,Investigate recorded symptom; log simulated corrective action
+EVT-00316,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-10,unplanned_stop,incomplete_cut,2026-09-10T22:53,2026-09-10T22:56,3,Investigate recorded symptom; log simulated corrective action
+EVT-00317,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-10,setup,planned_changeover,2026-09-10T23:01,2026-09-10T23:18,17,Complete simulated setup and verify sample
+EVT-00318,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-10,quality_check,scheduled_sample_inspection,2026-09-10T23:30,2026-09-10T23:56,26,Record simulated sample inspection result
+EVT-00319,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-10,unplanned_stop,loop_tension_variation,2026-09-10T23:35,2026-09-11T00:11,36,Investigate recorded symptom; log simulated corrective action
+EVT-00320,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-10,unplanned_stop,incomplete_cut,2026-09-11T00:39,2026-09-11T00:54,15,Investigate recorded symptom; log simulated corrective action
+EVT-00321,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-10,setup,planned_changeover,2026-09-11T01:10,2026-09-11T01:36,26,Complete simulated setup and verify sample
+EVT-00322,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-10,unplanned_stop,incomplete_cut,2026-09-11T01:27,2026-09-11T01:34,7,Investigate recorded symptom; log simulated corrective action
+EVT-00323,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-10,quality_check,scheduled_sample_inspection,2026-09-11T01:40,2026-09-11T02:11,31,Record simulated sample inspection result
+EVT-00324,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-10,unplanned_stop,ribbon_feed_fault,2026-09-11T02:22,2026-09-11T03:04,42,Investigate recorded symptom; log simulated corrective action
+EVT-00325,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-10,unplanned_stop,loop_tension_variation,2026-09-11T02:30,2026-09-11T02:46,16,Investigate recorded symptom; log simulated corrective action
+EVT-00326,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-10,unplanned_stop,ribbon_feed_fault,2026-09-11T03:20,2026-09-11T03:55,35,Investigate recorded symptom; log simulated corrective action
+EVT-00327,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-10,unplanned_stop,incomplete_ribbon_transfer,2026-09-11T03:43,2026-09-11T04:06,23,Investigate recorded symptom; log simulated corrective action
+EVT-00328,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-10,unplanned_stop,feed_interruption,2026-09-11T05:19,2026-09-11T05:37,18,Investigate recorded symptom; log simulated corrective action
+EVT-00329,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-10,unplanned_stop,ribbon_feed_fault,2026-09-11T05:40,2026-09-11T05:57,17,Investigate recorded symptom; log simulated corrective action
+EVT-00330,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-11,unplanned_stop,rotary_cut_fault,2026-09-11T08:01,2026-09-11T08:32,31,Investigate recorded symptom; log simulated corrective action
+EVT-00331,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-11,setup,planned_changeover,2026-09-11T08:02,2026-09-11T08:16,14,Complete simulated setup and verify sample
+EVT-00332,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-11,unplanned_stop,feed_interruption,2026-09-11T09:25,2026-09-11T09:41,16,Investigate recorded symptom; log simulated corrective action
+EVT-00333,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-11,unplanned_stop,mark_legibility_issue,2026-09-11T11:17,2026-09-11T11:22,5,Investigate recorded symptom; log simulated corrective action
+EVT-00334,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-11,setup,planned_changeover,2026-09-11T12:25,2026-09-11T13:00,35,Complete simulated setup and verify sample
+EVT-00335,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-11,unplanned_stop,wirestacker_stacking_issue,2026-09-11T13:17,2026-09-11T13:26,9,Investigate recorded symptom; log simulated corrective action
+EVT-00336,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-11,unplanned_stop,cut_length_deviation,2026-09-11T13:41,2026-09-11T13:55,14,Investigate recorded symptom; log simulated corrective action
+EVT-00337,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-11,unplanned_stop,wirestacker_stacking_issue,2026-09-11T13:43,2026-09-11T14:06,23,Investigate recorded symptom; log simulated corrective action
+EVT-00338,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-11,unplanned_stop,feed_interruption,2026-09-11T14:34,2026-09-11T15:11,37,Investigate recorded symptom; log simulated corrective action
+EVT-00339,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-11,unplanned_stop,ribbon_feed_fault,2026-09-11T14:52,2026-09-11T15:05,13,Investigate recorded symptom; log simulated corrective action
+EVT-00340,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-11,unplanned_stop,passive_offloader_issue,2026-09-11T15:20,2026-09-11T15:34,14,Investigate recorded symptom; log simulated corrective action
+EVT-00341,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-11,unplanned_stop,loop_tension_variation,2026-09-11T15:51,2026-09-11T16:30,39,Investigate recorded symptom; log simulated corrective action
+EVT-00342,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-11,quality_check,scheduled_sample_inspection,2026-09-11T16:22,2026-09-11T16:29,7,Record simulated sample inspection result
+EVT-00343,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-11,unplanned_stop,cable_path_issue,2026-09-11T16:49,2026-09-11T17:03,14,Investigate recorded symptom; log simulated corrective action
+EVT-00344,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-11,unplanned_stop,feed_interruption,2026-09-11T17:08,2026-09-11T17:31,23,Investigate recorded symptom; log simulated corrective action
+EVT-00345,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-11,unplanned_stop,csu_cycle_fault,2026-09-11T18:01,2026-09-11T18:04,3,Investigate recorded symptom; log simulated corrective action
+EVT-00346,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-11,unplanned_stop,incomplete_ribbon_transfer,2026-09-11T19:24,2026-09-11T19:52,28,Investigate recorded symptom; log simulated corrective action
+EVT-00347,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-11,setup,planned_changeover,2026-09-11T20:03,2026-09-11T20:30,27,Complete simulated setup and verify sample
+EVT-00348,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-11,unplanned_stop,incomplete_cut,2026-09-11T20:41,2026-09-11T21:13,32,Investigate recorded symptom; log simulated corrective action
+EVT-00349,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-11,unplanned_stop,cable_path_issue,2026-09-12T00:09,2026-09-12T00:33,24,Investigate recorded symptom; log simulated corrective action
+EVT-00350,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-11,setup,planned_changeover,2026-09-12T00:40,2026-09-12T01:07,27,Complete simulated setup and verify sample
+EVT-00351,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-11,unplanned_stop,csu_cycle_fault,2026-09-12T01:01,2026-09-12T01:14,13,Investigate recorded symptom; log simulated corrective action
+EVT-00352,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-11,quality_check,scheduled_sample_inspection,2026-09-12T01:24,2026-09-12T01:45,21,Record simulated sample inspection result
+EVT-00353,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-11,unplanned_stop,incomplete_ribbon_transfer,2026-09-12T01:39,2026-09-12T02:01,22,Investigate recorded symptom; log simulated corrective action
+EVT-00354,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-11,setup,planned_changeover,2026-09-12T02:03,2026-09-12T02:21,18,Complete simulated setup and verify sample
+EVT-00355,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-11,unplanned_stop,mark_position_issue,2026-09-12T02:59,2026-09-12T03:19,20,Investigate recorded symptom; log simulated corrective action
+EVT-00356,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-11,setup,planned_changeover,2026-09-12T03:06,2026-09-12T03:38,32,Complete simulated setup and verify sample
+EVT-00357,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-11,setup,planned_changeover,2026-09-12T03:37,2026-09-12T04:01,24,Complete simulated setup and verify sample
+EVT-00358,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-11,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-12T04:08,2026-09-12T04:16,8,Investigate recorded symptom; log simulated corrective action
+EVT-00359,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-11,unplanned_stop,incomplete_cut,2026-09-12T04:28,2026-09-12T04:31,3,Investigate recorded symptom; log simulated corrective action
+EVT-00360,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-11,unplanned_stop,incomplete_ribbon_transfer,2026-09-12T04:35,2026-09-12T05:03,28,Investigate recorded symptom; log simulated corrective action
+EVT-00361,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-11,setup,planned_changeover,2026-09-12T05:29,2026-09-12T06:00,31,Complete simulated setup and verify sample
+EVT-00362,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-12,unplanned_stop,cut_length_deviation,2026-09-12T07:05,2026-09-12T07:35,30,Investigate recorded symptom; log simulated corrective action
+EVT-00363,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-12,unplanned_stop,active_offloader_issue,2026-09-12T07:46,2026-09-12T08:08,22,Investigate recorded symptom; log simulated corrective action
+EVT-00364,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-12,unplanned_stop,loop_tension_variation,2026-09-12T08:39,2026-09-12T09:21,42,Investigate recorded symptom; log simulated corrective action
+EVT-00365,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-12,setup,planned_changeover,2026-09-12T09:34,2026-09-12T09:50,16,Complete simulated setup and verify sample
+EVT-00366,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-12,setup,planned_changeover,2026-09-12T09:44,2026-09-12T10:14,30,Complete simulated setup and verify sample
+EVT-00367,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-12,setup,planned_changeover,2026-09-12T10:03,2026-09-12T10:08,5,Complete simulated setup and verify sample
+EVT-00368,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-12,unplanned_stop,center_strip_defect,2026-09-12T10:22,2026-09-12T10:29,7,Investigate recorded symptom; log simulated corrective action
+EVT-00369,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-12,unplanned_stop,rotary_cut_fault,2026-09-12T11:52,2026-09-12T12:25,33,Investigate recorded symptom; log simulated corrective action
+EVT-00370,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-12,unplanned_stop,cable_path_issue,2026-09-12T12:23,2026-09-12T12:44,21,Investigate recorded symptom; log simulated corrective action
+EVT-00371,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-12,setup,planned_changeover,2026-09-12T12:59,2026-09-12T13:10,11,Complete simulated setup and verify sample
+EVT-00372,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-12,unplanned_stop,mark_legibility_issue,2026-09-12T13:32,2026-09-12T13:40,8,Investigate recorded symptom; log simulated corrective action
+EVT-00373,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-12,unplanned_stop,active_offloader_issue,2026-09-12T14:39,2026-09-12T14:45,6,Investigate recorded symptom; log simulated corrective action
+EVT-00374,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-12,unplanned_stop,buffer_signal_issue,2026-09-12T14:51,2026-09-12T15:08,17,Investigate recorded symptom; log simulated corrective action
+EVT-00375,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-12,unplanned_stop,passive_offloader_issue,2026-09-12T15:05,2026-09-12T15:10,5,Investigate recorded symptom; log simulated corrective action
+EVT-00376,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-12,setup,planned_changeover,2026-09-12T16:01,2026-09-12T16:20,19,Complete simulated setup and verify sample
+EVT-00377,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-12,setup,planned_changeover,2026-09-12T16:31,2026-09-12T16:41,10,Complete simulated setup and verify sample
+EVT-00378,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-12,unplanned_stop,ribbon_feed_fault,2026-09-12T17:00,2026-09-12T17:25,25,Investigate recorded symptom; log simulated corrective action
+EVT-00379,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-12,setup,planned_changeover,2026-09-12T18:55,2026-09-12T19:10,15,Complete simulated setup and verify sample
+EVT-00380,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-12,unplanned_stop,cut_length_deviation,2026-09-12T19:21,2026-09-12T19:38,17,Investigate recorded symptom; log simulated corrective action
+EVT-00381,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-12,setup,rotary_box_calibration,2026-09-12T21:46,2026-09-12T21:52,6,Complete simulated setup and verify sample
+EVT-00382,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-12,unplanned_stop,buffer_signal_issue,2026-09-12T22:26,2026-09-12T22:48,22,Investigate recorded symptom; log simulated corrective action
+EVT-00383,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-12,unplanned_stop,mark_position_issue,2026-09-12T23:50,2026-09-13T00:32,42,Investigate recorded symptom; log simulated corrective action
+EVT-00384,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-12,unplanned_stop,active_offloader_issue,2026-09-13T00:08,2026-09-13T00:27,19,Investigate recorded symptom; log simulated corrective action
+EVT-00385,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-12,unplanned_stop,center_strip_defect,2026-09-13T00:31,2026-09-13T01:00,29,Investigate recorded symptom; log simulated corrective action
+EVT-00386,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-12,unplanned_stop,mark_position_issue,2026-09-13T01:42,2026-09-13T02:00,18,Investigate recorded symptom; log simulated corrective action
+EVT-00387,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-12,unplanned_stop,buffer_signal_issue,2026-09-13T01:43,2026-09-13T02:02,19,Investigate recorded symptom; log simulated corrective action
+EVT-00388,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-12,setup,planned_changeover,2026-09-13T02:45,2026-09-13T03:14,29,Complete simulated setup and verify sample
+EVT-00389,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-12,unplanned_stop,cut_length_deviation,2026-09-13T03:07,2026-09-13T03:15,8,Investigate recorded symptom; log simulated corrective action
+EVT-00390,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-12,unplanned_stop,buffer_signal_issue,2026-09-13T03:19,2026-09-13T03:48,29,Investigate recorded symptom; log simulated corrective action
+EVT-00391,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-12,unplanned_stop,passive_offloader_issue,2026-09-13T04:05,2026-09-13T04:37,32,Investigate recorded symptom; log simulated corrective action
+EVT-00392,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-12,unplanned_stop,mark_position_issue,2026-09-13T05:20,2026-09-13T05:28,8,Investigate recorded symptom; log simulated corrective action
+EVT-00393,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-12,quality_check,scheduled_sample_inspection,2026-09-13T05:26,2026-09-13T05:45,19,Record simulated sample inspection result
+EVT-00394,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-13,unplanned_stop,loop_tension_variation,2026-09-13T07:04,2026-09-13T07:44,40,Investigate recorded symptom; log simulated corrective action
+EVT-00395,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-13T07:55,2026-09-13T08:15,20,Record simulated sample inspection result
+EVT-00396,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-13T07:56,2026-09-13T08:11,15,Record simulated sample inspection result
+EVT-00397,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-13T11:47,2026-09-13T12:20,33,Record simulated sample inspection result
+EVT-00398,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-13,unplanned_stop,ribbon_feed_fault,2026-09-13T12:44,2026-09-13T13:15,31,Investigate recorded symptom; log simulated corrective action
+EVT-00399,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-13,unplanned_stop,wirestacker_stacking_issue,2026-09-13T13:33,2026-09-13T13:51,18,Investigate recorded symptom; log simulated corrective action
+EVT-00400,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-13,setup,planned_changeover,2026-09-13T13:41,2026-09-13T14:02,21,Complete simulated setup and verify sample
+EVT-00401,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-13,unplanned_stop,loop_tension_variation,2026-09-13T14:00,2026-09-13T14:26,26,Investigate recorded symptom; log simulated corrective action
+EVT-00402,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-13T14:40,2026-09-13T14:52,12,Record simulated sample inspection result
+EVT-00403,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-13,unplanned_stop,ribbon_feed_fault,2026-09-13T14:48,2026-09-13T15:26,38,Investigate recorded symptom; log simulated corrective action
+EVT-00404,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-13,setup,planned_changeover,2026-09-13T15:54,2026-09-13T16:05,11,Complete simulated setup and verify sample
+EVT-00405,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-13,unplanned_stop,incomplete_ribbon_transfer,2026-09-13T16:55,2026-09-13T17:00,5,Investigate recorded symptom; log simulated corrective action
+EVT-00406,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-13,setup,planned_changeover,2026-09-13T17:29,2026-09-13T17:42,13,Complete simulated setup and verify sample
+EVT-00407,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-13,setup,planned_changeover,2026-09-13T18:21,2026-09-13T18:29,8,Complete simulated setup and verify sample
+EVT-00408,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-13,setup,planned_changeover,2026-09-13T18:43,2026-09-13T18:50,7,Complete simulated setup and verify sample
+EVT-00409,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-13,unplanned_stop,cable_path_issue,2026-09-13T20:02,2026-09-13T20:20,18,Investigate recorded symptom; log simulated corrective action
+EVT-00410,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-13,unplanned_stop,passive_offloader_issue,2026-09-13T20:18,2026-09-13T20:53,35,Investigate recorded symptom; log simulated corrective action
+EVT-00411,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-13,unplanned_stop,ribbon_feed_fault,2026-09-13T21:48,2026-09-13T22:14,26,Investigate recorded symptom; log simulated corrective action
+EVT-00412,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-13,setup,planned_changeover,2026-09-13T22:20,2026-09-13T22:25,5,Complete simulated setup and verify sample
+EVT-00413,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-14T00:14,2026-09-14T00:43,29,Record simulated sample inspection result
+EVT-00414,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-13,unplanned_stop,feed_interruption,2026-09-14T01:19,2026-09-14T01:49,30,Investigate recorded symptom; log simulated corrective action
+EVT-00415,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-13,setup,planned_changeover,2026-09-14T01:43,2026-09-14T02:18,35,Complete simulated setup and verify sample
+EVT-00416,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-13,setup,planned_changeover,2026-09-14T01:54,2026-09-14T02:10,16,Complete simulated setup and verify sample
+EVT-00417,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-13,setup,planned_changeover,2026-09-14T02:32,2026-09-14T02:53,21,Complete simulated setup and verify sample
+EVT-00418,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-13,quality_check,scheduled_sample_inspection,2026-09-14T02:37,2026-09-14T02:44,7,Record simulated sample inspection result
+EVT-00419,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-13,setup,planned_changeover,2026-09-14T02:56,2026-09-14T03:19,23,Complete simulated setup and verify sample
+EVT-00420,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-13,unplanned_stop,cable_path_issue,2026-09-14T03:07,2026-09-14T03:47,40,Investigate recorded symptom; log simulated corrective action
+EVT-00421,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-13,unplanned_stop,loop_tension_variation,2026-09-14T03:10,2026-09-14T03:51,41,Investigate recorded symptom; log simulated corrective action
+EVT-00422,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-13,unplanned_stop,cable_path_issue,2026-09-14T04:13,2026-09-14T04:49,36,Investigate recorded symptom; log simulated corrective action
+EVT-00423,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-13,unplanned_stop,passive_offloader_issue,2026-09-14T05:16,2026-09-14T05:57,41,Investigate recorded symptom; log simulated corrective action
+EVT-00424,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-14,setup,planned_changeover,2026-09-14T06:46,2026-09-14T07:04,18,Complete simulated setup and verify sample
+EVT-00425,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-14,unplanned_stop,incomplete_cut,2026-09-14T07:47,2026-09-14T07:58,11,Investigate recorded symptom; log simulated corrective action
+EVT-00426,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-14,quality_check,scheduled_sample_inspection,2026-09-14T08:04,2026-09-14T08:09,5,Record simulated sample inspection result
+EVT-00427,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-14,setup,planned_changeover,2026-09-14T09:12,2026-09-14T09:25,13,Complete simulated setup and verify sample
+EVT-00428,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-14,unplanned_stop,center_strip_defect,2026-09-14T09:24,2026-09-14T09:35,11,Investigate recorded symptom; log simulated corrective action
+EVT-00429,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-14,unplanned_stop,incomplete_ribbon_transfer,2026-09-14T09:45,2026-09-14T10:22,37,Investigate recorded symptom; log simulated corrective action
+EVT-00430,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-14,quality_check,scheduled_sample_inspection,2026-09-14T11:34,2026-09-14T12:00,26,Record simulated sample inspection result
+EVT-00431,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-14,unplanned_stop,cable_path_issue,2026-09-14T12:02,2026-09-14T12:26,24,Investigate recorded symptom; log simulated corrective action
+EVT-00432,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-14,unplanned_stop,ribbon_feed_fault,2026-09-14T12:10,2026-09-14T12:33,23,Investigate recorded symptom; log simulated corrective action
+EVT-00433,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-14,unplanned_stop,passive_offloader_issue,2026-09-14T12:37,2026-09-14T12:58,21,Investigate recorded symptom; log simulated corrective action
+EVT-00434,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-14,unplanned_stop,incomplete_cut,2026-09-14T13:34,2026-09-14T14:08,34,Investigate recorded symptom; log simulated corrective action
+EVT-00435,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-14,unplanned_stop,loop_tension_variation,2026-09-14T15:27,2026-09-14T15:42,15,Investigate recorded symptom; log simulated corrective action
+EVT-00436,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-14,unplanned_stop,loop_tension_variation,2026-09-14T16:10,2026-09-14T16:37,27,Investigate recorded symptom; log simulated corrective action
+EVT-00437,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-14,unplanned_stop,loop_tension_variation,2026-09-14T17:13,2026-09-14T17:21,8,Investigate recorded symptom; log simulated corrective action
+EVT-00438,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-14,quality_check,scheduled_sample_inspection,2026-09-14T19:50,2026-09-14T20:10,20,Record simulated sample inspection result
+EVT-00439,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-14,unplanned_stop,wirestacker_stacking_issue,2026-09-14T21:36,2026-09-14T21:52,16,Investigate recorded symptom; log simulated corrective action
+EVT-00440,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-14,quality_check,scheduled_sample_inspection,2026-09-14T21:44,2026-09-14T22:13,29,Record simulated sample inspection result
+EVT-00441,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-14,unplanned_stop,rotary_cut_fault,2026-09-14T21:54,2026-09-14T22:30,36,Investigate recorded symptom; log simulated corrective action
+EVT-00442,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-14,setup,planned_changeover,2026-09-14T22:43,2026-09-14T23:08,25,Complete simulated setup and verify sample
+EVT-00443,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-14,unplanned_stop,cut_length_deviation,2026-09-15T00:38,2026-09-15T01:18,40,Investigate recorded symptom; log simulated corrective action
+EVT-00444,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-14,setup,planned_changeover,2026-09-15T00:45,2026-09-15T01:11,26,Complete simulated setup and verify sample
+EVT-00445,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-14,unplanned_stop,cable_path_issue,2026-09-15T01:25,2026-09-15T02:05,40,Investigate recorded symptom; log simulated corrective action
+EVT-00446,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-14,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-15T01:53,2026-09-15T02:06,13,Investigate recorded symptom; log simulated corrective action
+EVT-00447,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-14,unplanned_stop,incomplete_cut,2026-09-15T02:56,2026-09-15T03:35,39,Investigate recorded symptom; log simulated corrective action
+EVT-00448,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-14,unplanned_stop,door_locking_system_issue,2026-09-15T03:04,2026-09-15T03:41,37,Investigate recorded symptom; log simulated corrective action
+EVT-00449,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-14,quality_check,scheduled_sample_inspection,2026-09-15T03:23,2026-09-15T03:52,29,Record simulated sample inspection result
+EVT-00450,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-14,unplanned_stop,ribbon_feed_fault,2026-09-15T04:20,2026-09-15T04:43,23,Investigate recorded symptom; log simulated corrective action
+EVT-00451,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-14,unplanned_stop,cable_path_issue,2026-09-15T04:23,2026-09-15T04:44,21,Investigate recorded symptom; log simulated corrective action
+EVT-00452,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-14,unplanned_stop,feed_interruption,2026-09-15T05:11,2026-09-15T05:28,17,Investigate recorded symptom; log simulated corrective action
+EVT-00453,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-15,unplanned_stop,mark_legibility_issue,2026-09-15T07:45,2026-09-15T07:51,6,Investigate recorded symptom; log simulated corrective action
+EVT-00454,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-15,setup,planned_changeover,2026-09-15T08:50,2026-09-15T08:58,8,Complete simulated setup and verify sample
+EVT-00455,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-15,unplanned_stop,incomplete_cut,2026-09-15T09:36,2026-09-15T09:51,15,Investigate recorded symptom; log simulated corrective action
+EVT-00456,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-15,quality_check,scheduled_sample_inspection,2026-09-15T11:21,2026-09-15T11:26,5,Record simulated sample inspection result
+EVT-00457,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-15,unplanned_stop,feed_interruption,2026-09-15T11:59,2026-09-15T12:12,13,Investigate recorded symptom; log simulated corrective action
+EVT-00458,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-15,unplanned_stop,mark_position_issue,2026-09-15T12:08,2026-09-15T12:30,22,Investigate recorded symptom; log simulated corrective action
+EVT-00459,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-15,quality_check,scheduled_sample_inspection,2026-09-15T12:18,2026-09-15T12:44,26,Record simulated sample inspection result
+EVT-00460,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-15,unplanned_stop,mark_legibility_issue,2026-09-15T13:05,2026-09-15T13:18,13,Investigate recorded symptom; log simulated corrective action
+EVT-00461,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-15,unplanned_stop,rotary_cut_fault,2026-09-15T13:57,2026-09-15T14:04,7,Investigate recorded symptom; log simulated corrective action
+EVT-00462,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-15,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-15T14:49,2026-09-15T15:15,26,Investigate recorded symptom; log simulated corrective action
+EVT-00463,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-15,quality_check,scheduled_sample_inspection,2026-09-15T15:11,2026-09-15T15:20,9,Record simulated sample inspection result
+EVT-00464,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-15,unplanned_stop,ribbon_feed_fault,2026-09-15T15:45,2026-09-15T15:50,5,Investigate recorded symptom; log simulated corrective action
+EVT-00465,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-15,unplanned_stop,buffer_signal_issue,2026-09-15T16:09,2026-09-15T16:37,28,Investigate recorded symptom; log simulated corrective action
+EVT-00466,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-15,unplanned_stop,cable_path_issue,2026-09-15T16:17,2026-09-15T16:39,22,Investigate recorded symptom; log simulated corrective action
+EVT-00467,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-15,unplanned_stop,cable_path_issue,2026-09-15T16:25,2026-09-15T16:43,18,Investigate recorded symptom; log simulated corrective action
+EVT-00468,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-15,unplanned_stop,cable_path_issue,2026-09-15T18:00,2026-09-15T18:31,31,Investigate recorded symptom; log simulated corrective action
+EVT-00469,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-15,unplanned_stop,csu_cycle_fault,2026-09-15T18:12,2026-09-15T18:48,36,Investigate recorded symptom; log simulated corrective action
+EVT-00470,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-15,setup,planned_changeover,2026-09-15T18:15,2026-09-15T18:49,34,Complete simulated setup and verify sample
+EVT-00471,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-15,unplanned_stop,mark_position_issue,2026-09-15T19:04,2026-09-15T19:46,42,Investigate recorded symptom; log simulated corrective action
+EVT-00472,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-15,setup,planned_changeover,2026-09-15T19:40,2026-09-15T19:56,16,Complete simulated setup and verify sample
+EVT-00473,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-15,unplanned_stop,cable_path_issue,2026-09-15T20:00,2026-09-15T20:10,10,Investigate recorded symptom; log simulated corrective action
+EVT-00474,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-15,setup,planned_changeover,2026-09-15T21:34,2026-09-15T22:02,28,Complete simulated setup and verify sample
+EVT-00475,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-15,unplanned_stop,incomplete_cut,2026-09-15T22:15,2026-09-15T22:35,20,Investigate recorded symptom; log simulated corrective action
+EVT-00476,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-15,unplanned_stop,ribbon_feed_fault,2026-09-15T22:39,2026-09-15T23:14,35,Investigate recorded symptom; log simulated corrective action
+EVT-00477,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-15,unplanned_stop,buffer_signal_issue,2026-09-15T22:48,2026-09-15T23:19,31,Investigate recorded symptom; log simulated corrective action
+EVT-00478,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-15,setup,planned_changeover,2026-09-15T23:17,2026-09-15T23:25,8,Complete simulated setup and verify sample
+EVT-00479,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-15,unplanned_stop,mark_legibility_issue,2026-09-15T23:23,2026-09-15T23:45,22,Investigate recorded symptom; log simulated corrective action
+EVT-00480,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-15,unplanned_stop,mark_legibility_issue,2026-09-15T23:29,2026-09-15T23:56,27,Investigate recorded symptom; log simulated corrective action
+EVT-00481,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-15,setup,planned_changeover,2026-09-16T01:32,2026-09-16T01:47,15,Complete simulated setup and verify sample
+EVT-00482,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-15,setup,planned_changeover,2026-09-16T01:36,2026-09-16T01:56,20,Complete simulated setup and verify sample
+EVT-00483,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-15,unplanned_stop,center_strip_defect,2026-09-16T02:19,2026-09-16T02:45,26,Investigate recorded symptom; log simulated corrective action
+EVT-00484,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-15,setup,planned_changeover,2026-09-16T02:19,2026-09-16T02:49,30,Complete simulated setup and verify sample
+EVT-00485,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-15,setup,planned_changeover,2026-09-16T02:49,2026-09-16T03:18,29,Complete simulated setup and verify sample
+EVT-00486,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-15,unplanned_stop,incomplete_cut,2026-09-16T03:05,2026-09-16T03:19,14,Investigate recorded symptom; log simulated corrective action
+EVT-00487,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-15,unplanned_stop,cable_path_issue,2026-09-16T04:26,2026-09-16T04:36,10,Investigate recorded symptom; log simulated corrective action
+EVT-00488,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-15,setup,planned_changeover,2026-09-16T05:00,2026-09-16T05:32,32,Complete simulated setup and verify sample
+EVT-00489,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-16,unplanned_stop,wirestacker_stacking_issue,2026-09-16T06:09,2026-09-16T06:36,27,Investigate recorded symptom; log simulated corrective action
+EVT-00490,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T06:32,2026-09-16T07:06,34,Record simulated sample inspection result
+EVT-00491,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-16,unplanned_stop,mark_position_issue,2026-09-16T06:38,2026-09-16T07:19,41,Investigate recorded symptom; log simulated corrective action
+EVT-00492,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-16,unplanned_stop,feed_interruption,2026-09-16T07:18,2026-09-16T07:40,22,Investigate recorded symptom; log simulated corrective action
+EVT-00493,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-16,unplanned_stop,incomplete_cut,2026-09-16T07:47,2026-09-16T07:51,4,Investigate recorded symptom; log simulated corrective action
+EVT-00494,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T07:56,2026-09-16T08:28,32,Record simulated sample inspection result
+EVT-00495,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-16,unplanned_stop,loop_tension_variation,2026-09-16T07:58,2026-09-16T08:06,8,Investigate recorded symptom; log simulated corrective action
+EVT-00496,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-16,unplanned_stop,incomplete_ribbon_transfer,2026-09-16T08:22,2026-09-16T08:36,14,Investigate recorded symptom; log simulated corrective action
+EVT-00497,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-16,unplanned_stop,mark_position_issue,2026-09-16T08:36,2026-09-16T08:47,11,Investigate recorded symptom; log simulated corrective action
+EVT-00498,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-16,setup,planned_changeover,2026-09-16T08:57,2026-09-16T09:27,30,Complete simulated setup and verify sample
+EVT-00499,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-16,setup,planned_changeover,2026-09-16T10:09,2026-09-16T10:32,23,Complete simulated setup and verify sample
+EVT-00500,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-16,unplanned_stop,active_offloader_issue,2026-09-16T10:10,2026-09-16T10:32,22,Investigate recorded symptom; log simulated corrective action
+EVT-00501,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T10:31,2026-09-16T10:38,7,Record simulated sample inspection result
+EVT-00502,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-16,unplanned_stop,cable_path_issue,2026-09-16T10:37,2026-09-16T11:16,39,Investigate recorded symptom; log simulated corrective action
+EVT-00503,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-16,unplanned_stop,mark_legibility_issue,2026-09-16T11:56,2026-09-16T12:32,36,Investigate recorded symptom; log simulated corrective action
+EVT-00504,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T12:20,2026-09-16T12:52,32,Record simulated sample inspection result
+EVT-00505,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-16,unplanned_stop,cable_path_issue,2026-09-16T13:26,2026-09-16T14:00,34,Investigate recorded symptom; log simulated corrective action
+EVT-00506,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T13:31,2026-09-16T13:51,20,Record simulated sample inspection result
+EVT-00507,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-16,unplanned_stop,buffer_signal_issue,2026-09-16T14:19,2026-09-16T15:01,42,Investigate recorded symptom; log simulated corrective action
+EVT-00508,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-16,setup,planned_changeover,2026-09-16T14:27,2026-09-16T14:59,32,Complete simulated setup and verify sample
+EVT-00509,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-16,setup,planned_changeover,2026-09-16T15:07,2026-09-16T15:21,14,Complete simulated setup and verify sample
+EVT-00510,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-16,setup,planned_changeover,2026-09-16T15:32,2026-09-16T15:41,9,Complete simulated setup and verify sample
+EVT-00511,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-16,unplanned_stop,door_locking_system_issue,2026-09-16T15:42,2026-09-16T16:22,40,Investigate recorded symptom; log simulated corrective action
+EVT-00512,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-16,unplanned_stop,ribbon_feed_fault,2026-09-16T17:12,2026-09-16T17:53,41,Investigate recorded symptom; log simulated corrective action
+EVT-00513,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-16,unplanned_stop,cable_path_issue,2026-09-16T18:30,2026-09-16T18:58,28,Investigate recorded symptom; log simulated corrective action
+EVT-00514,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-16,unplanned_stop,active_offloader_issue,2026-09-16T19:33,2026-09-16T19:41,8,Investigate recorded symptom; log simulated corrective action
+EVT-00515,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-16,unplanned_stop,cable_path_issue,2026-09-16T19:58,2026-09-16T20:20,22,Investigate recorded symptom; log simulated corrective action
+EVT-00516,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-16,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-16T20:25,2026-09-16T20:53,28,Investigate recorded symptom; log simulated corrective action
+EVT-00517,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T21:16,2026-09-16T21:45,29,Record simulated sample inspection result
+EVT-00518,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-16,unplanned_stop,cut_length_deviation,2026-09-16T21:23,2026-09-16T21:32,9,Investigate recorded symptom; log simulated corrective action
+EVT-00519,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-16,unplanned_stop,mark_legibility_issue,2026-09-16T21:37,2026-09-16T21:51,14,Investigate recorded symptom; log simulated corrective action
+EVT-00520,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-16T21:53,2026-09-16T22:18,25,Record simulated sample inspection result
+EVT-00521,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-16,unplanned_stop,cut_length_deviation,2026-09-17T00:42,2026-09-17T01:18,36,Investigate recorded symptom; log simulated corrective action
+EVT-00522,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-16,unplanned_stop,buffer_signal_issue,2026-09-17T01:01,2026-09-17T01:19,18,Investigate recorded symptom; log simulated corrective action
+EVT-00523,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-16,setup,planned_changeover,2026-09-17T02:05,2026-09-17T02:22,17,Complete simulated setup and verify sample
+EVT-00524,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-16,unplanned_stop,strip_quality_defect,2026-09-17T02:13,2026-09-17T02:38,25,Investigate recorded symptom; log simulated corrective action
+EVT-00525,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-16,setup,planned_changeover,2026-09-17T02:47,2026-09-17T02:57,10,Complete simulated setup and verify sample
+EVT-00526,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-16,unplanned_stop,mark_position_issue,2026-09-17T02:59,2026-09-17T03:39,40,Investigate recorded symptom; log simulated corrective action
+EVT-00527,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-17T03:57,2026-09-17T04:09,12,Record simulated sample inspection result
+EVT-00528,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-16,quality_check,scheduled_sample_inspection,2026-09-17T04:28,2026-09-17T04:54,26,Record simulated sample inspection result
+EVT-00529,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-17,setup,planned_changeover,2026-09-17T06:50,2026-09-17T07:07,17,Complete simulated setup and verify sample
+EVT-00530,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-17,quality_check,scheduled_sample_inspection,2026-09-17T07:22,2026-09-17T07:28,6,Record simulated sample inspection result
+EVT-00531,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-17,quality_check,scheduled_sample_inspection,2026-09-17T07:32,2026-09-17T07:53,21,Record simulated sample inspection result
+EVT-00532,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-17,unplanned_stop,incomplete_ribbon_transfer,2026-09-17T09:28,2026-09-17T09:36,8,Investigate recorded symptom; log simulated corrective action
+EVT-00533,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-17,unplanned_stop,mark_legibility_issue,2026-09-17T10:53,2026-09-17T11:21,28,Investigate recorded symptom; log simulated corrective action
+EVT-00534,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-17,unplanned_stop,center_strip_defect,2026-09-17T11:29,2026-09-17T12:08,39,Investigate recorded symptom; log simulated corrective action
+EVT-00535,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-17,unplanned_stop,active_offloader_issue,2026-09-17T11:54,2026-09-17T12:02,8,Investigate recorded symptom; log simulated corrective action
+EVT-00536,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-17,unplanned_stop,mark_legibility_issue,2026-09-17T13:48,2026-09-17T13:56,8,Investigate recorded symptom; log simulated corrective action
+EVT-00537,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-17,unplanned_stop,incomplete_ribbon_transfer,2026-09-17T14:20,2026-09-17T14:39,19,Investigate recorded symptom; log simulated corrective action
+EVT-00538,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-17,unplanned_stop,cut_length_deviation,2026-09-17T14:25,2026-09-17T14:36,11,Investigate recorded symptom; log simulated corrective action
+EVT-00539,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-17,unplanned_stop,loop_tension_variation,2026-09-17T15:12,2026-09-17T15:21,9,Investigate recorded symptom; log simulated corrective action
+EVT-00540,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-17,setup,planned_changeover,2026-09-17T15:29,2026-09-17T16:00,31,Complete simulated setup and verify sample
+EVT-00541,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-17,unplanned_stop,mark_legibility_issue,2026-09-17T15:44,2026-09-17T15:49,5,Investigate recorded symptom; log simulated corrective action
+EVT-00542,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-17,quality_check,scheduled_sample_inspection,2026-09-17T16:23,2026-09-17T16:48,25,Record simulated sample inspection result
+EVT-00543,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-17,setup,planned_changeover,2026-09-17T18:15,2026-09-17T18:26,11,Complete simulated setup and verify sample
+EVT-00544,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-17,setup,planned_changeover,2026-09-17T18:41,2026-09-17T18:54,13,Complete simulated setup and verify sample
+EVT-00545,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-17,unplanned_stop,cable_path_issue,2026-09-17T19:25,2026-09-17T19:58,33,Investigate recorded symptom; log simulated corrective action
+EVT-00546,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-17,setup,planned_changeover,2026-09-17T20:05,2026-09-17T20:27,22,Complete simulated setup and verify sample
+EVT-00547,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-17,quality_check,scheduled_sample_inspection,2026-09-17T20:36,2026-09-17T20:44,8,Record simulated sample inspection result
+EVT-00548,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-17,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-17T20:54,2026-09-17T21:05,11,Investigate recorded symptom; log simulated corrective action
+EVT-00549,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-17,unplanned_stop,ribbon_feed_fault,2026-09-17T21:45,2026-09-17T22:08,23,Investigate recorded symptom; log simulated corrective action
+EVT-00550,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-17,unplanned_stop,incomplete_cut,2026-09-17T22:17,2026-09-17T22:49,32,Investigate recorded symptom; log simulated corrective action
+EVT-00551,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-17,setup,planned_changeover,2026-09-17T22:33,2026-09-17T23:03,30,Complete simulated setup and verify sample
+EVT-00552,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-17,unplanned_stop,feed_interruption,2026-09-17T23:08,2026-09-17T23:50,42,Investigate recorded symptom; log simulated corrective action
+EVT-00553,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-17,unplanned_stop,incomplete_cut,2026-09-18T00:09,2026-09-18T00:17,8,Investigate recorded symptom; log simulated corrective action
+EVT-00554,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-17,unplanned_stop,mark_position_issue,2026-09-18T00:15,2026-09-18T00:26,11,Investigate recorded symptom; log simulated corrective action
+EVT-00555,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-17,setup,planned_changeover,2026-09-18T00:33,2026-09-18T00:40,7,Complete simulated setup and verify sample
+EVT-00556,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-17,unplanned_stop,cable_path_issue,2026-09-18T01:00,2026-09-18T01:33,33,Investigate recorded symptom; log simulated corrective action
+EVT-00557,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-17,unplanned_stop,csu_cycle_fault,2026-09-18T01:13,2026-09-18T01:19,6,Investigate recorded symptom; log simulated corrective action
+EVT-00558,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-17,unplanned_stop,cable_path_issue,2026-09-18T01:47,2026-09-18T02:20,33,Investigate recorded symptom; log simulated corrective action
+EVT-00559,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-17,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-18T02:49,2026-09-18T03:14,25,Investigate recorded symptom; log simulated corrective action
+EVT-00560,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-17,unplanned_stop,mark_position_issue,2026-09-18T04:27,2026-09-18T04:55,28,Investigate recorded symptom; log simulated corrective action
+EVT-00561,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-17,quality_check,scheduled_sample_inspection,2026-09-18T04:56,2026-09-18T05:18,22,Record simulated sample inspection result
+EVT-00562,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-17,unplanned_stop,ribbon_feed_fault,2026-09-18T05:07,2026-09-18T05:40,33,Investigate recorded symptom; log simulated corrective action
+EVT-00563,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-18,setup,planned_changeover,2026-09-18T06:01,2026-09-18T06:27,26,Complete simulated setup and verify sample
+EVT-00564,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-18,setup,planned_changeover,2026-09-18T06:33,2026-09-18T07:02,29,Complete simulated setup and verify sample
+EVT-00565,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-18,quality_check,scheduled_sample_inspection,2026-09-18T08:01,2026-09-18T08:16,15,Record simulated sample inspection result
+EVT-00566,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-18,setup,planned_changeover,2026-09-18T09:42,2026-09-18T09:54,12,Complete simulated setup and verify sample
+EVT-00567,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-18,setup,planned_changeover,2026-09-18T09:43,2026-09-18T10:02,19,Complete simulated setup and verify sample
+EVT-00568,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-18,setup,planned_changeover,2026-09-18T09:55,2026-09-18T10:12,17,Complete simulated setup and verify sample
+EVT-00569,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-18,quality_check,scheduled_sample_inspection,2026-09-18T10:16,2026-09-18T10:25,9,Record simulated sample inspection result
+EVT-00570,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-18,unplanned_stop,incomplete_cut,2026-09-18T11:00,2026-09-18T11:14,14,Investigate recorded symptom; log simulated corrective action
+EVT-00571,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-18,setup,planned_changeover,2026-09-18T11:39,2026-09-18T12:12,33,Complete simulated setup and verify sample
+EVT-00572,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-18,setup,planned_changeover,2026-09-18T11:39,2026-09-18T12:10,31,Complete simulated setup and verify sample
+EVT-00573,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-18,unplanned_stop,loop_tension_variation,2026-09-18T12:06,2026-09-18T12:16,10,Investigate recorded symptom; log simulated corrective action
+EVT-00574,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-18,setup,planned_changeover,2026-09-18T12:07,2026-09-18T12:30,23,Complete simulated setup and verify sample
+EVT-00575,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-18,unplanned_stop,feed_interruption,2026-09-18T12:15,2026-09-18T12:34,19,Investigate recorded symptom; log simulated corrective action
+EVT-00576,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-18,unplanned_stop,loop_tension_variation,2026-09-18T13:34,2026-09-18T13:58,24,Investigate recorded symptom; log simulated corrective action
+EVT-00577,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-18,unplanned_stop,mark_position_issue,2026-09-18T13:52,2026-09-18T14:14,22,Investigate recorded symptom; log simulated corrective action
+EVT-00578,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-18,unplanned_stop,incomplete_cut,2026-09-18T15:09,2026-09-18T15:38,29,Investigate recorded symptom; log simulated corrective action
+EVT-00579,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-18,unplanned_stop,buffer_signal_issue,2026-09-18T16:14,2026-09-18T16:27,13,Investigate recorded symptom; log simulated corrective action
+EVT-00580,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-18,unplanned_stop,incomplete_ribbon_transfer,2026-09-18T17:00,2026-09-18T17:26,26,Investigate recorded symptom; log simulated corrective action
+EVT-00581,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-18,setup,planned_changeover,2026-09-18T18:00,2026-09-18T18:18,18,Complete simulated setup and verify sample
+EVT-00582,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-18,unplanned_stop,ribbon_feed_fault,2026-09-18T18:20,2026-09-18T18:55,35,Investigate recorded symptom; log simulated corrective action
+EVT-00583,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-18,setup,planned_changeover,2026-09-18T18:37,2026-09-18T19:06,29,Complete simulated setup and verify sample
+EVT-00584,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-18,unplanned_stop,csu_cycle_fault,2026-09-18T18:55,2026-09-18T19:18,23,Investigate recorded symptom; log simulated corrective action
+EVT-00585,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-18,setup,planned_changeover,2026-09-18T19:16,2026-09-18T19:26,10,Complete simulated setup and verify sample
+EVT-00586,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-18,unplanned_stop,mark_position_issue,2026-09-18T19:45,2026-09-18T20:11,26,Investigate recorded symptom; log simulated corrective action
+EVT-00587,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-18,unplanned_stop,door_locking_system_issue,2026-09-18T20:49,2026-09-18T21:22,33,Investigate recorded symptom; log simulated corrective action
+EVT-00588,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-18,unplanned_stop,ribbon_feed_fault,2026-09-18T22:26,2026-09-18T22:31,5,Investigate recorded symptom; log simulated corrective action
+EVT-00589,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-18,unplanned_stop,mark_legibility_issue,2026-09-18T22:29,2026-09-18T22:43,14,Investigate recorded symptom; log simulated corrective action
+EVT-00590,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-18,setup,planned_changeover,2026-09-18T22:40,2026-09-18T22:56,16,Complete simulated setup and verify sample
+EVT-00591,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-18,unplanned_stop,csu_cycle_fault,2026-09-18T22:55,2026-09-18T23:21,26,Investigate recorded symptom; log simulated corrective action
+EVT-00592,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-18,unplanned_stop,rotary_cut_fault,2026-09-18T23:00,2026-09-18T23:08,8,Investigate recorded symptom; log simulated corrective action
+EVT-00593,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-18,setup,planned_changeover,2026-09-18T23:31,2026-09-18T23:52,21,Complete simulated setup and verify sample
+EVT-00594,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-18,unplanned_stop,cable_path_issue,2026-09-18T23:32,2026-09-19T00:12,40,Investigate recorded symptom; log simulated corrective action
+EVT-00595,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-18,setup,planned_changeover,2026-09-19T01:40,2026-09-19T01:58,18,Complete simulated setup and verify sample
+EVT-00596,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-18,quality_check,scheduled_sample_inspection,2026-09-19T02:02,2026-09-19T02:29,27,Record simulated sample inspection result
+EVT-00597,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-18,unplanned_stop,loop_tension_variation,2026-09-19T02:46,2026-09-19T03:28,42,Investigate recorded symptom; log simulated corrective action
+EVT-00598,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-18,unplanned_stop,feed_interruption,2026-09-19T03:28,2026-09-19T03:59,31,Investigate recorded symptom; log simulated corrective action
+EVT-00599,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-18,setup,planned_changeover,2026-09-19T03:28,2026-09-19T03:44,16,Complete simulated setup and verify sample
+EVT-00600,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-18,unplanned_stop,center_strip_defect,2026-09-19T05:02,2026-09-19T05:28,26,Investigate recorded symptom; log simulated corrective action
+EVT-00601,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-18,quality_check,scheduled_sample_inspection,2026-09-19T05:04,2026-09-19T05:24,20,Record simulated sample inspection result
+EVT-00602,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-18,unplanned_stop,mark_position_issue,2026-09-19T05:11,2026-09-19T05:16,5,Investigate recorded symptom; log simulated corrective action
+EVT-00603,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-19,unplanned_stop,cable_path_issue,2026-09-19T06:59,2026-09-19T07:31,32,Investigate recorded symptom; log simulated corrective action
+EVT-00604,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-19,unplanned_stop,mark_position_issue,2026-09-19T07:03,2026-09-19T07:23,20,Investigate recorded symptom; log simulated corrective action
+EVT-00605,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-19,setup,planned_changeover,2026-09-19T07:37,2026-09-19T07:52,15,Complete simulated setup and verify sample
+EVT-00606,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-19,unplanned_stop,mark_position_issue,2026-09-19T08:13,2026-09-19T08:51,38,Investigate recorded symptom; log simulated corrective action
+EVT-00607,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T08:14,2026-09-19T08:33,19,Record simulated sample inspection result
+EVT-00608,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-19,unplanned_stop,feed_interruption,2026-09-19T08:42,2026-09-19T08:55,13,Investigate recorded symptom; log simulated corrective action
+EVT-00609,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-19,unplanned_stop,wirestacker_stacking_issue,2026-09-19T09:51,2026-09-19T10:11,20,Investigate recorded symptom; log simulated corrective action
+EVT-00610,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-19,unplanned_stop,buffer_signal_issue,2026-09-19T11:59,2026-09-19T12:15,16,Investigate recorded symptom; log simulated corrective action
+EVT-00611,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T12:07,2026-09-19T12:24,17,Record simulated sample inspection result
+EVT-00612,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-19,setup,planned_changeover,2026-09-19T12:40,2026-09-19T13:15,35,Complete simulated setup and verify sample
+EVT-00613,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-19,unplanned_stop,buffer_signal_issue,2026-09-19T12:49,2026-09-19T12:57,8,Investigate recorded symptom; log simulated corrective action
+EVT-00614,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-19,unplanned_stop,feed_interruption,2026-09-19T13:19,2026-09-19T13:42,23,Investigate recorded symptom; log simulated corrective action
+EVT-00615,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-19,unplanned_stop,strip_quality_defect,2026-09-19T14:04,2026-09-19T14:43,39,Investigate recorded symptom; log simulated corrective action
+EVT-00616,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-19,unplanned_stop,loop_tension_variation,2026-09-19T14:27,2026-09-19T14:59,32,Investigate recorded symptom; log simulated corrective action
+EVT-00617,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-19,unplanned_stop,mark_position_issue,2026-09-19T14:30,2026-09-19T14:33,3,Investigate recorded symptom; log simulated corrective action
+EVT-00618,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T14:53,2026-09-19T15:05,12,Record simulated sample inspection result
+EVT-00619,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-19,unplanned_stop,center_strip_defect,2026-09-19T14:55,2026-09-19T14:58,3,Investigate recorded symptom; log simulated corrective action
+EVT-00620,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-19,unplanned_stop,loop_tension_variation,2026-09-19T15:35,2026-09-19T16:16,41,Investigate recorded symptom; log simulated corrective action
+EVT-00621,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T16:24,2026-09-19T16:43,19,Record simulated sample inspection result
+EVT-00622,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T16:35,2026-09-19T16:49,14,Record simulated sample inspection result
+EVT-00623,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-19,unplanned_stop,cut_length_deviation,2026-09-19T16:40,2026-09-19T16:58,18,Investigate recorded symptom; log simulated corrective action
+EVT-00624,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-19,setup,planned_changeover,2026-09-19T17:05,2026-09-19T17:28,23,Complete simulated setup and verify sample
+EVT-00625,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-19,setup,planned_changeover,2026-09-19T17:13,2026-09-19T17:35,22,Complete simulated setup and verify sample
+EVT-00626,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-19,setup,planned_changeover,2026-09-19T18:08,2026-09-19T18:15,7,Complete simulated setup and verify sample
+EVT-00627,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-19,unplanned_stop,mark_position_issue,2026-09-19T18:21,2026-09-19T19:00,39,Investigate recorded symptom; log simulated corrective action
+EVT-00628,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T19:09,2026-09-19T19:14,5,Record simulated sample inspection result
+EVT-00629,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-19,unplanned_stop,cable_path_issue,2026-09-19T19:43,2026-09-19T20:11,28,Investigate recorded symptom; log simulated corrective action
+EVT-00630,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-19,unplanned_stop,incomplete_cut,2026-09-19T19:56,2026-09-19T20:24,28,Investigate recorded symptom; log simulated corrective action
+EVT-00631,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-19,unplanned_stop,loop_tension_variation,2026-09-19T20:59,2026-09-19T21:37,38,Investigate recorded symptom; log simulated corrective action
+EVT-00632,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T21:58,2026-09-19T22:27,29,Record simulated sample inspection result
+EVT-00633,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-19T23:39,2026-09-20T00:14,35,Record simulated sample inspection result
+EVT-00634,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-20T00:33,2026-09-20T00:41,8,Record simulated sample inspection result
+EVT-00635,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-19,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-20T01:07,2026-09-20T01:47,40,Investigate recorded symptom; log simulated corrective action
+EVT-00636,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-19,setup,planned_changeover,2026-09-20T02:36,2026-09-20T03:02,26,Complete simulated setup and verify sample
+EVT-00637,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-19,setup,planned_changeover,2026-09-20T03:18,2026-09-20T03:52,34,Complete simulated setup and verify sample
+EVT-00638,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-19,unplanned_stop,feed_interruption,2026-09-20T03:27,2026-09-20T03:31,4,Investigate recorded symptom; log simulated corrective action
+EVT-00639,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-19,unplanned_stop,ribbon_feed_fault,2026-09-20T03:54,2026-09-20T04:07,13,Investigate recorded symptom; log simulated corrective action
+EVT-00640,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-19,setup,planned_changeover,2026-09-20T04:00,2026-09-20T04:07,7,Complete simulated setup and verify sample
+EVT-00641,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-19,quality_check,scheduled_sample_inspection,2026-09-20T05:16,2026-09-20T05:42,26,Record simulated sample inspection result
+EVT-00642,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-19,unplanned_stop,feed_interruption,2026-09-20T05:47,2026-09-20T05:52,5,Investigate recorded symptom; log simulated corrective action
+EVT-00643,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-20,unplanned_stop,incomplete_ribbon_transfer,2026-09-20T06:16,2026-09-20T06:37,21,Investigate recorded symptom; log simulated corrective action
+EVT-00644,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-20,unplanned_stop,loop_tension_variation,2026-09-20T06:39,2026-09-20T07:21,42,Investigate recorded symptom; log simulated corrective action
+EVT-00645,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-20,setup,planned_changeover,2026-09-20T07:26,2026-09-20T07:49,23,Complete simulated setup and verify sample
+EVT-00646,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-20,unplanned_stop,loop_tension_variation,2026-09-20T08:36,2026-09-20T08:50,14,Investigate recorded symptom; log simulated corrective action
+EVT-00647,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-20,setup,planned_changeover,2026-09-20T10:49,2026-09-20T11:10,21,Complete simulated setup and verify sample
+EVT-00648,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-20,setup,planned_changeover,2026-09-20T11:24,2026-09-20T11:46,22,Complete simulated setup and verify sample
+EVT-00649,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-20,unplanned_stop,csu_cycle_fault,2026-09-20T14:05,2026-09-20T14:09,4,Investigate recorded symptom; log simulated corrective action
+EVT-00650,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-20,unplanned_stop,center_strip_defect,2026-09-20T14:25,2026-09-20T14:28,3,Investigate recorded symptom; log simulated corrective action
+EVT-00651,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-20,quality_check,scheduled_sample_inspection,2026-09-20T14:39,2026-09-20T15:03,24,Record simulated sample inspection result
+EVT-00652,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-20,setup,planned_changeover,2026-09-20T15:27,2026-09-20T15:58,31,Complete simulated setup and verify sample
+EVT-00653,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-20,unplanned_stop,mark_legibility_issue,2026-09-20T16:04,2026-09-20T16:36,32,Investigate recorded symptom; log simulated corrective action
+EVT-00654,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-20,setup,planned_changeover,2026-09-20T16:20,2026-09-20T16:46,26,Complete simulated setup and verify sample
+EVT-00655,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-20,unplanned_stop,cable_path_issue,2026-09-20T16:28,2026-09-20T16:52,24,Investigate recorded symptom; log simulated corrective action
+EVT-00656,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-20,quality_check,scheduled_sample_inspection,2026-09-20T16:31,2026-09-20T16:51,20,Record simulated sample inspection result
+EVT-00657,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-20,setup,planned_changeover,2026-09-20T16:53,2026-09-20T17:23,30,Complete simulated setup and verify sample
+EVT-00658,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-20,setup,planned_changeover,2026-09-20T16:57,2026-09-20T17:05,8,Complete simulated setup and verify sample
+EVT-00659,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-20,unplanned_stop,buffer_signal_issue,2026-09-20T17:28,2026-09-20T17:59,31,Investigate recorded symptom; log simulated corrective action
+EVT-00660,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-20,setup,planned_changeover,2026-09-20T18:54,2026-09-20T19:08,14,Complete simulated setup and verify sample
+EVT-00661,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-20,unplanned_stop,mark_legibility_issue,2026-09-20T19:11,2026-09-20T19:29,18,Investigate recorded symptom; log simulated corrective action
+EVT-00662,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-20,unplanned_stop,cable_path_issue,2026-09-20T20:24,2026-09-20T20:40,16,Investigate recorded symptom; log simulated corrective action
+EVT-00663,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-20,unplanned_stop,mark_legibility_issue,2026-09-20T20:53,2026-09-20T21:28,35,Investigate recorded symptom; log simulated corrective action
+EVT-00664,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-20,quality_check,scheduled_sample_inspection,2026-09-20T22:19,2026-09-20T22:24,5,Record simulated sample inspection result
+EVT-00665,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-20,unplanned_stop,buffer_signal_issue,2026-09-20T22:33,2026-09-20T23:15,42,Investigate recorded symptom; log simulated corrective action
+EVT-00666,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-20,unplanned_stop,mark_legibility_issue,2026-09-20T23:21,2026-09-20T23:45,24,Investigate recorded symptom; log simulated corrective action
+EVT-00667,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-20,setup,planned_changeover,2026-09-21T00:01,2026-09-21T00:06,5,Complete simulated setup and verify sample
+EVT-00668,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-20,unplanned_stop,loop_tension_variation,2026-09-21T00:42,2026-09-21T00:57,15,Investigate recorded symptom; log simulated corrective action
+EVT-00669,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-20,unplanned_stop,loop_tension_variation,2026-09-21T01:43,2026-09-21T02:15,32,Investigate recorded symptom; log simulated corrective action
+EVT-00670,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-20,unplanned_stop,ribbon_feed_fault,2026-09-21T02:15,2026-09-21T02:34,19,Investigate recorded symptom; log simulated corrective action
+EVT-00671,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-20,unplanned_stop,ribbon_feed_fault,2026-09-21T02:56,2026-09-21T03:34,38,Investigate recorded symptom; log simulated corrective action
+EVT-00672,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-20,unplanned_stop,active_offloader_issue,2026-09-21T03:06,2026-09-21T03:17,11,Investigate recorded symptom; log simulated corrective action
+EVT-00673,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-20,setup,planned_changeover,2026-09-21T03:45,2026-09-21T04:10,25,Complete simulated setup and verify sample
+EVT-00674,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-20,unplanned_stop,mark_legibility_issue,2026-09-21T05:09,2026-09-21T05:31,22,Investigate recorded symptom; log simulated corrective action
+EVT-00675,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-20,setup,planned_changeover,2026-09-21T05:15,2026-09-21T05:25,10,Complete simulated setup and verify sample
+EVT-00676,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-21,unplanned_stop,cut_length_deviation,2026-09-21T06:31,2026-09-21T07:06,35,Investigate recorded symptom; log simulated corrective action
+EVT-00677,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-21,setup,planned_changeover,2026-09-21T06:31,2026-09-21T06:59,28,Complete simulated setup and verify sample
+EVT-00678,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-21,unplanned_stop,incomplete_cut,2026-09-21T06:31,2026-09-21T07:13,42,Investigate recorded symptom; log simulated corrective action
+EVT-00679,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-21,unplanned_stop,strip_quality_defect,2026-09-21T07:39,2026-09-21T07:50,11,Investigate recorded symptom; log simulated corrective action
+EVT-00680,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T08:04,2026-09-21T08:35,31,Record simulated sample inspection result
+EVT-00681,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-21,unplanned_stop,active_offloader_issue,2026-09-21T08:28,2026-09-21T09:10,42,Investigate recorded symptom; log simulated corrective action
+EVT-00682,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T08:55,2026-09-21T09:19,24,Record simulated sample inspection result
+EVT-00683,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-21,unplanned_stop,mark_legibility_issue,2026-09-21T09:26,2026-09-21T09:29,3,Investigate recorded symptom; log simulated corrective action
+EVT-00684,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T12:02,2026-09-21T12:24,22,Record simulated sample inspection result
+EVT-00685,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-21,setup,planned_changeover,2026-09-21T13:28,2026-09-21T14:01,33,Complete simulated setup and verify sample
+EVT-00686,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T14:47,2026-09-21T14:52,5,Record simulated sample inspection result
+EVT-00687,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-21,unplanned_stop,passive_offloader_issue,2026-09-21T15:09,2026-09-21T15:17,8,Investigate recorded symptom; log simulated corrective action
+EVT-00688,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-21,setup,planned_changeover,2026-09-21T15:49,2026-09-21T16:22,33,Complete simulated setup and verify sample
+EVT-00689,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-21,setup,planned_changeover,2026-09-21T16:39,2026-09-21T17:04,25,Complete simulated setup and verify sample
+EVT-00690,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-21,setup,planned_changeover,2026-09-21T16:47,2026-09-21T16:52,5,Complete simulated setup and verify sample
+EVT-00691,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T17:19,2026-09-21T17:39,20,Record simulated sample inspection result
+EVT-00692,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-21,unplanned_stop,cable_path_issue,2026-09-21T19:13,2026-09-21T19:43,30,Investigate recorded symptom; log simulated corrective action
+EVT-00693,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-21,unplanned_stop,center_strip_defect,2026-09-21T19:26,2026-09-21T19:46,20,Investigate recorded symptom; log simulated corrective action
+EVT-00694,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-21,unplanned_stop,csu_cycle_fault,2026-09-21T19:41,2026-09-21T20:10,29,Investigate recorded symptom; log simulated corrective action
+EVT-00695,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-21,setup,planned_changeover,2026-09-21T19:51,2026-09-21T20:06,15,Complete simulated setup and verify sample
+EVT-00696,SIM-CUT-04,SIM-CONFIG-04,collection_machine,night,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T21:24,2026-09-21T21:44,20,Record simulated sample inspection result
+EVT-00697,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-21,setup,planned_changeover,2026-09-21T21:27,2026-09-21T21:41,14,Complete simulated setup and verify sample
+EVT-00698,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T22:41,2026-09-21T23:08,27,Record simulated sample inspection result
+EVT-00699,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-21T23:09,2026-09-21T23:42,33,Record simulated sample inspection result
+EVT-00700,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-21,setup,planned_changeover,2026-09-22T00:27,2026-09-22T00:50,23,Complete simulated setup and verify sample
+EVT-00701,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-21,unplanned_stop,feed_interruption,2026-09-22T00:37,2026-09-22T01:16,39,Investigate recorded symptom; log simulated corrective action
+EVT-00702,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-21,unplanned_stop,csu_cycle_fault,2026-09-22T01:18,2026-09-22T01:26,8,Investigate recorded symptom; log simulated corrective action
+EVT-00703,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-21,setup,planned_changeover,2026-09-22T01:49,2026-09-22T02:23,34,Complete simulated setup and verify sample
+EVT-00704,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-21,unplanned_stop,strip_quality_defect,2026-09-22T02:23,2026-09-22T02:39,16,Investigate recorded symptom; log simulated corrective action
+EVT-00705,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-21,unplanned_stop,mark_position_issue,2026-09-22T03:47,2026-09-22T03:55,8,Investigate recorded symptom; log simulated corrective action
+EVT-00706,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-21,quality_check,scheduled_sample_inspection,2026-09-22T03:50,2026-09-22T04:25,35,Record simulated sample inspection result
+EVT-00707,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-21,unplanned_stop,wirestacker_stacking_issue,2026-09-22T04:21,2026-09-22T04:35,14,Investigate recorded symptom; log simulated corrective action
+EVT-00708,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-21,setup,planned_changeover,2026-09-22T04:28,2026-09-22T05:01,33,Complete simulated setup and verify sample
+EVT-00709,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-21,unplanned_stop,wirestacker_stacking_issue,2026-09-22T04:55,2026-09-22T05:07,12,Investigate recorded symptom; log simulated corrective action
+EVT-00710,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-22,unplanned_stop,loop_tension_variation,2026-09-22T06:09,2026-09-22T06:28,19,Investigate recorded symptom; log simulated corrective action
+EVT-00711,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-22,unplanned_stop,incomplete_ribbon_transfer,2026-09-22T06:57,2026-09-22T07:03,6,Investigate recorded symptom; log simulated corrective action
+EVT-00712,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-22,unplanned_stop,active_offloader_issue,2026-09-22T07:26,2026-09-22T07:39,13,Investigate recorded symptom; log simulated corrective action
+EVT-00713,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-22,setup,planned_changeover,2026-09-22T07:46,2026-09-22T08:20,34,Complete simulated setup and verify sample
+EVT-00714,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-22,unplanned_stop,wirestacker_stacking_issue,2026-09-22T07:50,2026-09-22T07:56,6,Investigate recorded symptom; log simulated corrective action
+EVT-00715,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-22,unplanned_stop,mark_position_issue,2026-09-22T08:00,2026-09-22T08:31,31,Investigate recorded symptom; log simulated corrective action
+EVT-00716,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-22,unplanned_stop,loop_tension_variation,2026-09-22T08:29,2026-09-22T09:08,39,Investigate recorded symptom; log simulated corrective action
+EVT-00717,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-22,setup,planned_changeover,2026-09-22T10:14,2026-09-22T10:32,18,Complete simulated setup and verify sample
+EVT-00718,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-22,unplanned_stop,ribbon_feed_fault,2026-09-22T11:21,2026-09-22T11:37,16,Investigate recorded symptom; log simulated corrective action
+EVT-00719,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-22,setup,planned_changeover,2026-09-22T11:46,2026-09-22T11:58,12,Complete simulated setup and verify sample
+EVT-00720,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-22,unplanned_stop,active_offloader_issue,2026-09-22T12:28,2026-09-22T12:57,29,Investigate recorded symptom; log simulated corrective action
+EVT-00721,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-22,quality_check,scheduled_sample_inspection,2026-09-22T12:45,2026-09-22T13:16,31,Record simulated sample inspection result
+EVT-00722,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-22,setup,planned_changeover,2026-09-22T13:21,2026-09-22T13:29,8,Complete simulated setup and verify sample
+EVT-00723,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-22,unplanned_stop,door_locking_system_issue,2026-09-22T14:17,2026-09-22T14:37,20,Investigate recorded symptom; log simulated corrective action
+EVT-00724,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-22,unplanned_stop,mark_position_issue,2026-09-22T14:21,2026-09-22T14:40,19,Investigate recorded symptom; log simulated corrective action
+EVT-00725,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-22,unplanned_stop,passive_offloader_issue,2026-09-22T17:25,2026-09-22T17:39,14,Investigate recorded symptom; log simulated corrective action
+EVT-00726,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-22,unplanned_stop,mark_position_issue,2026-09-22T17:35,2026-09-22T17:59,24,Investigate recorded symptom; log simulated corrective action
+EVT-00727,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-22,unplanned_stop,ribbon_feed_fault,2026-09-22T17:41,2026-09-22T17:52,11,Investigate recorded symptom; log simulated corrective action
+EVT-00728,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-22,unplanned_stop,ribbon_feed_fault,2026-09-22T18:26,2026-09-22T18:43,17,Investigate recorded symptom; log simulated corrective action
+EVT-00729,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-22,unplanned_stop,mark_legibility_issue,2026-09-22T19:58,2026-09-22T20:37,39,Investigate recorded symptom; log simulated corrective action
+EVT-00730,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-22,unplanned_stop,mark_legibility_issue,2026-09-22T20:49,2026-09-22T21:31,42,Investigate recorded symptom; log simulated corrective action
+EVT-00731,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-22,unplanned_stop,loop_tension_variation,2026-09-22T21:27,2026-09-22T22:04,37,Investigate recorded symptom; log simulated corrective action
+EVT-00732,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-22,unplanned_stop,feed_interruption,2026-09-22T21:55,2026-09-22T22:12,17,Investigate recorded symptom; log simulated corrective action
+EVT-00733,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-22,setup,planned_changeover,2026-09-22T22:16,2026-09-22T22:30,14,Complete simulated setup and verify sample
+EVT-00734,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-22,setup,planned_changeover,2026-09-22T23:04,2026-09-22T23:35,31,Complete simulated setup and verify sample
+EVT-00735,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-22,unplanned_stop,cable_path_issue,2026-09-22T23:23,2026-09-22T23:50,27,Investigate recorded symptom; log simulated corrective action
+EVT-00736,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-22,unplanned_stop,center_strip_defect,2026-09-22T23:43,2026-09-23T00:21,38,Investigate recorded symptom; log simulated corrective action
+EVT-00737,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-22,unplanned_stop,cable_path_issue,2026-09-23T00:24,2026-09-23T01:03,39,Investigate recorded symptom; log simulated corrective action
+EVT-00738,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-22,setup,planned_changeover,2026-09-23T01:33,2026-09-23T01:57,24,Complete simulated setup and verify sample
+EVT-00739,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-22,setup,planned_changeover,2026-09-23T02:10,2026-09-23T02:30,20,Complete simulated setup and verify sample
+EVT-00740,SIM-CUT-05,SIM-CONFIG-05,v_loop,night,2026-09-22,quality_check,scheduled_sample_inspection,2026-09-23T02:42,2026-09-23T02:57,15,Record simulated sample inspection result
+EVT-00741,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-22,quality_check,scheduled_sample_inspection,2026-09-23T02:53,2026-09-23T03:04,11,Record simulated sample inspection result
+EVT-00742,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-22,quality_check,scheduled_sample_inspection,2026-09-23T03:09,2026-09-23T03:17,8,Record simulated sample inspection result
+EVT-00743,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-22,unplanned_stop,buffer_signal_issue,2026-09-23T03:49,2026-09-23T04:12,23,Investigate recorded symptom; log simulated corrective action
+EVT-00744,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-22,setup,planned_changeover,2026-09-23T04:10,2026-09-23T04:22,12,Complete simulated setup and verify sample
+EVT-00745,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-22,quality_check,scheduled_sample_inspection,2026-09-23T04:58,2026-09-23T05:22,24,Record simulated sample inspection result
+EVT-00746,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-22,unplanned_stop,csu_cycle_fault,2026-09-23T05:09,2026-09-23T05:15,6,Investigate recorded symptom; log simulated corrective action
+EVT-00747,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-23,setup,planned_changeover,2026-09-23T06:53,2026-09-23T07:17,24,Complete simulated setup and verify sample
+EVT-00748,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-23,setup,planned_changeover,2026-09-23T07:21,2026-09-23T07:41,20,Complete simulated setup and verify sample
+EVT-00749,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-23,setup,planned_changeover,2026-09-23T07:48,2026-09-23T08:10,22,Complete simulated setup and verify sample
+EVT-00750,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-23,unplanned_stop,active_offloader_issue,2026-09-23T08:00,2026-09-23T08:22,22,Investigate recorded symptom; log simulated corrective action
+EVT-00751,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-23,unplanned_stop,wirestacker_stacking_issue,2026-09-23T08:22,2026-09-23T08:55,33,Investigate recorded symptom; log simulated corrective action
+EVT-00752,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-23,unplanned_stop,incomplete_ribbon_transfer,2026-09-23T08:55,2026-09-23T08:58,3,Investigate recorded symptom; log simulated corrective action
+EVT-00753,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-23,quality_check,scheduled_sample_inspection,2026-09-23T10:29,2026-09-23T10:34,5,Record simulated sample inspection result
+EVT-00754,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-23,unplanned_stop,wirestacker_stacking_issue,2026-09-23T10:42,2026-09-23T11:23,41,Investigate recorded symptom; log simulated corrective action
+EVT-00755,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-23,setup,planned_changeover,2026-09-23T12:10,2026-09-23T12:41,31,Complete simulated setup and verify sample
+EVT-00756,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-23,unplanned_stop,rotary_cut_fault,2026-09-23T12:19,2026-09-23T12:24,5,Investigate recorded symptom; log simulated corrective action
+EVT-00757,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-23,unplanned_stop,rotary_cut_fault,2026-09-23T13:12,2026-09-23T13:25,13,Investigate recorded symptom; log simulated corrective action
+EVT-00758,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-23,quality_check,scheduled_sample_inspection,2026-09-23T13:20,2026-09-23T13:51,31,Record simulated sample inspection result
+EVT-00759,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-23,unplanned_stop,loop_tension_variation,2026-09-23T14:12,2026-09-23T14:28,16,Investigate recorded symptom; log simulated corrective action
+EVT-00760,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-23,unplanned_stop,incomplete_cut,2026-09-23T14:50,2026-09-23T15:04,14,Investigate recorded symptom; log simulated corrective action
+EVT-00761,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-23,quality_check,scheduled_sample_inspection,2026-09-23T15:12,2026-09-23T15:21,9,Record simulated sample inspection result
+EVT-00762,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-23,unplanned_stop,mark_position_issue,2026-09-23T15:58,2026-09-23T16:20,22,Investigate recorded symptom; log simulated corrective action
+EVT-00763,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-23,quality_check,scheduled_sample_inspection,2026-09-23T16:18,2026-09-23T16:30,12,Record simulated sample inspection result
+EVT-00764,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-23,unplanned_stop,active_offloader_issue,2026-09-23T16:28,2026-09-23T17:06,38,Investigate recorded symptom; log simulated corrective action
+EVT-00765,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-23,unplanned_stop,cut_length_deviation,2026-09-23T17:00,2026-09-23T17:37,37,Investigate recorded symptom; log simulated corrective action
+EVT-00766,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,morning,2026-09-23,unplanned_stop,csu_cycle_fault,2026-09-23T17:20,2026-09-23T17:41,21,Investigate recorded symptom; log simulated corrective action
+EVT-00767,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-23,setup,planned_changeover,2026-09-23T19:15,2026-09-23T19:27,12,Complete simulated setup and verify sample
+EVT-00768,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-23,setup,planned_changeover,2026-09-23T19:26,2026-09-23T19:50,24,Complete simulated setup and verify sample
+EVT-00769,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-23,unplanned_stop,cut_length_deviation,2026-09-23T20:01,2026-09-23T20:14,13,Investigate recorded symptom; log simulated corrective action
+EVT-00770,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-23,unplanned_stop,mark_legibility_issue,2026-09-23T20:06,2026-09-23T20:19,13,Investigate recorded symptom; log simulated corrective action
+EVT-00771,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-23,unplanned_stop,feed_interruption,2026-09-23T20:36,2026-09-23T21:08,32,Investigate recorded symptom; log simulated corrective action
+EVT-00772,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-23,unplanned_stop,cable_path_issue,2026-09-23T21:10,2026-09-23T21:29,19,Investigate recorded symptom; log simulated corrective action
+EVT-00773,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-23,unplanned_stop,loop_tension_variation,2026-09-23T21:39,2026-09-23T21:51,12,Investigate recorded symptom; log simulated corrective action
+EVT-00774,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-23,unplanned_stop,center_strip_defect,2026-09-23T23:22,2026-09-23T23:44,22,Investigate recorded symptom; log simulated corrective action
+EVT-00775,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-23,unplanned_stop,buffer_signal_issue,2026-09-24T00:31,2026-09-24T00:54,23,Investigate recorded symptom; log simulated corrective action
+EVT-00776,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-23,quality_check,scheduled_sample_inspection,2026-09-24T00:47,2026-09-24T01:16,29,Record simulated sample inspection result
+EVT-00777,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-23,setup,rotary_box_calibration,2026-09-24T02:22,2026-09-24T02:47,25,Complete simulated setup and verify sample
+EVT-00778,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-23,unplanned_stop,cable_path_issue,2026-09-24T02:53,2026-09-24T03:02,9,Investigate recorded symptom; log simulated corrective action
+EVT-00779,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-23,setup,planned_changeover,2026-09-24T04:11,2026-09-24T04:28,17,Complete simulated setup and verify sample
+EVT-00780,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-23,unplanned_stop,incomplete_cut,2026-09-24T05:05,2026-09-24T05:16,11,Investigate recorded symptom; log simulated corrective action
+EVT-00781,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-23,unplanned_stop,cut_length_deviation,2026-09-24T05:26,2026-09-24T05:41,15,Investigate recorded symptom; log simulated corrective action
+EVT-00782,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-24,unplanned_stop,passive_offloader_issue,2026-09-24T07:04,2026-09-24T07:27,23,Investigate recorded symptom; log simulated corrective action
+EVT-00783,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-24,quality_check,scheduled_sample_inspection,2026-09-24T07:43,2026-09-24T07:50,7,Record simulated sample inspection result
+EVT-00784,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-24,unplanned_stop,buffer_signal_issue,2026-09-24T08:00,2026-09-24T08:20,20,Investigate recorded symptom; log simulated corrective action
+EVT-00785,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-24,setup,planned_changeover,2026-09-24T08:14,2026-09-24T08:30,16,Complete simulated setup and verify sample
+EVT-00786,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-24,quality_check,scheduled_sample_inspection,2026-09-24T08:25,2026-09-24T08:56,31,Record simulated sample inspection result
+EVT-00787,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-24,quality_check,scheduled_sample_inspection,2026-09-24T09:17,2026-09-24T09:46,29,Record simulated sample inspection result
+EVT-00788,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-24,unplanned_stop,wirestacker_stacking_issue,2026-09-24T11:05,2026-09-24T11:26,21,Investigate recorded symptom; log simulated corrective action
+EVT-00789,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-24,unplanned_stop,incomplete_ribbon_transfer,2026-09-24T11:20,2026-09-24T11:47,27,Investigate recorded symptom; log simulated corrective action
+EVT-00790,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-24,setup,planned_changeover,2026-09-24T12:01,2026-09-24T12:07,6,Complete simulated setup and verify sample
+EVT-00791,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-24,unplanned_stop,feed_interruption,2026-09-24T12:56,2026-09-24T13:14,18,Investigate recorded symptom; log simulated corrective action
+EVT-00792,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-24,unplanned_stop,ribbon_feed_fault,2026-09-24T13:49,2026-09-24T13:57,8,Investigate recorded symptom; log simulated corrective action
+EVT-00793,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-24,unplanned_stop,buffer_signal_issue,2026-09-24T14:18,2026-09-24T14:30,12,Investigate recorded symptom; log simulated corrective action
+EVT-00794,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-24,unplanned_stop,incomplete_ribbon_transfer,2026-09-24T15:32,2026-09-24T16:12,40,Investigate recorded symptom; log simulated corrective action
+EVT-00795,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-24,unplanned_stop,cut_length_deviation,2026-09-24T16:44,2026-09-24T16:50,6,Investigate recorded symptom; log simulated corrective action
+EVT-00796,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-24,unplanned_stop,incomplete_cut,2026-09-24T17:28,2026-09-24T17:46,18,Investigate recorded symptom; log simulated corrective action
+EVT-00797,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-24,setup,planned_changeover,2026-09-24T18:55,2026-09-24T19:03,8,Complete simulated setup and verify sample
+EVT-00798,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-24,unplanned_stop,strip_quality_defect,2026-09-24T19:26,2026-09-24T19:58,32,Investigate recorded symptom; log simulated corrective action
+EVT-00799,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-24,setup,planned_changeover,2026-09-24T19:44,2026-09-24T19:53,9,Complete simulated setup and verify sample
+EVT-00800,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-24,quality_check,scheduled_sample_inspection,2026-09-24T19:58,2026-09-24T20:24,26,Record simulated sample inspection result
+EVT-00801,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-24,unplanned_stop,csu_cycle_fault,2026-09-24T23:30,2026-09-25T00:00,30,Investigate recorded symptom; log simulated corrective action
+EVT-00802,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-24,unplanned_stop,mark_legibility_issue,2026-09-25T00:38,2026-09-25T00:50,12,Investigate recorded symptom; log simulated corrective action
+EVT-00803,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-24,setup,planned_changeover,2026-09-25T01:05,2026-09-25T01:27,22,Complete simulated setup and verify sample
+EVT-00804,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-24,unplanned_stop,mark_position_issue,2026-09-25T01:11,2026-09-25T01:22,11,Investigate recorded symptom; log simulated corrective action
+EVT-00805,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-24,unplanned_stop,wirestacker_stacking_issue,2026-09-25T01:32,2026-09-25T01:45,13,Investigate recorded symptom; log simulated corrective action
+EVT-00806,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-24,unplanned_stop,feed_interruption,2026-09-25T02:51,2026-09-25T03:26,35,Investigate recorded symptom; log simulated corrective action
+EVT-00807,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-24,setup,planned_changeover,2026-09-25T03:05,2026-09-25T03:24,19,Complete simulated setup and verify sample
+EVT-00808,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-24,unplanned_stop,mark_legibility_issue,2026-09-25T03:23,2026-09-25T03:53,30,Investigate recorded symptom; log simulated corrective action
+EVT-00809,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-24,quality_check,scheduled_sample_inspection,2026-09-25T05:26,2026-09-25T05:54,28,Record simulated sample inspection result
+EVT-00810,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-25,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-25T06:31,2026-09-25T06:36,5,Investigate recorded symptom; log simulated corrective action
+EVT-00811,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,morning,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-25T09:02,2026-09-25T09:23,21,Record simulated sample inspection result
+EVT-00812,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-25,unplanned_stop,cut_length_deviation,2026-09-25T09:28,2026-09-25T09:56,28,Investigate recorded symptom; log simulated corrective action
+EVT-00813,SIM-CUT-04,SIM-CONFIG-04,v_loop,morning,2026-09-25,setup,planned_changeover,2026-09-25T10:13,2026-09-25T10:26,13,Complete simulated setup and verify sample
+EVT-00814,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-25,setup,planned_changeover,2026-09-25T11:26,2026-09-25T11:31,5,Complete simulated setup and verify sample
+EVT-00815,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-25,unplanned_stop,cable_path_issue,2026-09-25T11:39,2026-09-25T12:07,28,Investigate recorded symptom; log simulated corrective action
+EVT-00816,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-25,unplanned_stop,incomplete_cut,2026-09-25T12:00,2026-09-25T12:10,10,Investigate recorded symptom; log simulated corrective action
+EVT-00817,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-25T13:02,2026-09-25T13:26,24,Record simulated sample inspection result
+EVT-00818,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-25,unplanned_stop,mark_position_issue,2026-09-25T13:06,2026-09-25T13:44,38,Investigate recorded symptom; log simulated corrective action
+EVT-00819,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-25,setup,rotary_box_calibration,2026-09-25T14:20,2026-09-25T14:33,13,Complete simulated setup and verify sample
+EVT-00820,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-25,unplanned_stop,mark_legibility_issue,2026-09-25T14:43,2026-09-25T15:22,39,Investigate recorded symptom; log simulated corrective action
+EVT-00821,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-25,unplanned_stop,incomplete_ribbon_transfer,2026-09-25T14:44,2026-09-25T15:00,16,Investigate recorded symptom; log simulated corrective action
+EVT-00822,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-25,setup,planned_changeover,2026-09-25T15:27,2026-09-25T15:58,31,Complete simulated setup and verify sample
+EVT-00823,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-25T15:37,2026-09-25T15:56,19,Record simulated sample inspection result
+EVT-00824,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-25,unplanned_stop,ribbon_feed_fault,2026-09-25T15:59,2026-09-25T16:06,7,Investigate recorded symptom; log simulated corrective action
+EVT-00825,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-25,unplanned_stop,mark_legibility_issue,2026-09-25T16:27,2026-09-25T17:03,36,Investigate recorded symptom; log simulated corrective action
+EVT-00826,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-25T17:03,2026-09-25T17:29,26,Record simulated sample inspection result
+EVT-00827,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-25,unplanned_stop,strip_quality_defect,2026-09-25T18:27,2026-09-25T18:48,21,Investigate recorded symptom; log simulated corrective action
+EVT-00828,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,night,2026-09-25,setup,planned_changeover,2026-09-25T18:57,2026-09-25T19:04,7,Complete simulated setup and verify sample
+EVT-00829,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-25T19:36,2026-09-25T20:04,28,Record simulated sample inspection result
+EVT-00830,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-25,unplanned_stop,mark_position_issue,2026-09-25T20:16,2026-09-25T20:43,27,Investigate recorded symptom; log simulated corrective action
+EVT-00831,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-25,unplanned_stop,strip_quality_defect,2026-09-25T20:47,2026-09-25T20:57,10,Investigate recorded symptom; log simulated corrective action
+EVT-00832,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-25,unplanned_stop,wirestacker_stacking_issue,2026-09-25T21:18,2026-09-25T21:33,15,Investigate recorded symptom; log simulated corrective action
+EVT-00833,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-25,setup,planned_changeover,2026-09-25T21:38,2026-09-25T22:03,25,Complete simulated setup and verify sample
+EVT-00834,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-25,unplanned_stop,incomplete_cut,2026-09-25T22:26,2026-09-25T22:45,19,Investigate recorded symptom; log simulated corrective action
+EVT-00835,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-25,unplanned_stop,loop_tension_variation,2026-09-25T22:52,2026-09-25T23:14,22,Investigate recorded symptom; log simulated corrective action
+EVT-00836,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-25,unplanned_stop,loop_tension_variation,2026-09-25T22:55,2026-09-25T23:17,22,Investigate recorded symptom; log simulated corrective action
+EVT-00837,SIM-CUT-01,SIM-CONFIG-01,collection_machine,night,2026-09-25,unplanned_stop,door_locking_system_issue,2026-09-25T23:28,2026-09-25T23:59,31,Investigate recorded symptom; log simulated corrective action
+EVT-00838,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,night,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-26T00:17,2026-09-26T00:30,13,Record simulated sample inspection result
+EVT-00839,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-25,unplanned_stop,cable_path_issue,2026-09-26T00:28,2026-09-26T01:09,41,Investigate recorded symptom; log simulated corrective action
+EVT-00840,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-26T01:04,2026-09-26T01:17,13,Record simulated sample inspection result
+EVT-00841,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-25,quality_check,scheduled_sample_inspection,2026-09-26T01:20,2026-09-26T01:40,20,Record simulated sample inspection result
+EVT-00842,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-25,setup,planned_changeover,2026-09-26T02:15,2026-09-26T02:28,13,Complete simulated setup and verify sample
+EVT-00843,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-25,unplanned_stop,mark_legibility_issue,2026-09-26T03:10,2026-09-26T03:23,13,Investigate recorded symptom; log simulated corrective action
+EVT-00844,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-25,unplanned_stop,passive_offloader_issue,2026-09-26T03:24,2026-09-26T03:58,34,Investigate recorded symptom; log simulated corrective action
+EVT-00845,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-25,unplanned_stop,wirestacker_stacking_issue,2026-09-26T03:55,2026-09-26T04:04,9,Investigate recorded symptom; log simulated corrective action
+EVT-00846,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-25,unplanned_stop,loop_tension_variation,2026-09-26T04:26,2026-09-26T05:01,35,Investigate recorded symptom; log simulated corrective action
+EVT-00847,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-25,setup,planned_changeover,2026-09-26T04:53,2026-09-26T05:01,8,Complete simulated setup and verify sample
+EVT-00848,SIM-CUT-03,SIM-CONFIG-03,v_loop,morning,2026-09-26,unplanned_stop,loop_tension_variation,2026-09-26T06:38,2026-09-26T07:04,26,Investigate recorded symptom; log simulated corrective action
+EVT-00849,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-26,unplanned_stop,incomplete_cut,2026-09-26T07:57,2026-09-26T08:38,41,Investigate recorded symptom; log simulated corrective action
+EVT-00850,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,morning,2026-09-26,unplanned_stop,feed_interruption,2026-09-26T11:47,2026-09-26T12:13,26,Investigate recorded symptom; log simulated corrective action
+EVT-00851,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-26,setup,planned_changeover,2026-09-26T12:10,2026-09-26T12:20,10,Complete simulated setup and verify sample
+EVT-00852,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-26,setup,planned_changeover,2026-09-26T12:58,2026-09-26T13:30,32,Complete simulated setup and verify sample
+EVT-00853,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-26,setup,planned_changeover,2026-09-26T14:07,2026-09-26T14:32,25,Complete simulated setup and verify sample
+EVT-00854,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-26,unplanned_stop,ribbon_feed_fault,2026-09-26T14:18,2026-09-26T14:54,36,Investigate recorded symptom; log simulated corrective action
+EVT-00855,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-26,unplanned_stop,rotary_cut_fault,2026-09-26T14:57,2026-09-26T15:24,27,Investigate recorded symptom; log simulated corrective action
+EVT-00856,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-26,unplanned_stop,center_strip_defect,2026-09-26T15:18,2026-09-26T15:46,28,Investigate recorded symptom; log simulated corrective action
+EVT-00857,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-26,unplanned_stop,incomplete_ribbon_transfer,2026-09-26T15:51,2026-09-26T16:24,33,Investigate recorded symptom; log simulated corrective action
+EVT-00858,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-26,unplanned_stop,strip_quality_defect,2026-09-26T16:10,2026-09-26T16:34,24,Investigate recorded symptom; log simulated corrective action
+EVT-00859,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-26,setup,planned_changeover,2026-09-26T16:46,2026-09-26T16:52,6,Complete simulated setup and verify sample
+EVT-00860,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-26,unplanned_stop,mark_legibility_issue,2026-09-26T16:54,2026-09-26T17:24,30,Investigate recorded symptom; log simulated corrective action
+EVT-00861,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-26,quality_check,scheduled_sample_inspection,2026-09-26T17:07,2026-09-26T17:33,26,Record simulated sample inspection result
+EVT-00862,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-26,unplanned_stop,door_locking_system_issue,2026-09-26T17:36,2026-09-26T17:49,13,Investigate recorded symptom; log simulated corrective action
+EVT-00863,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-26,setup,planned_changeover,2026-09-26T18:36,2026-09-26T18:56,20,Complete simulated setup and verify sample
+EVT-00864,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-26,unplanned_stop,feed_interruption,2026-09-26T18:44,2026-09-26T19:03,19,Investigate recorded symptom; log simulated corrective action
+EVT-00865,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-26,quality_check,scheduled_sample_inspection,2026-09-26T19:31,2026-09-26T19:43,12,Record simulated sample inspection result
+EVT-00866,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-26,quality_check,scheduled_sample_inspection,2026-09-26T19:40,2026-09-26T19:55,15,Record simulated sample inspection result
+EVT-00867,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-26,unplanned_stop,cable_path_issue,2026-09-26T20:13,2026-09-26T20:39,26,Investigate recorded symptom; log simulated corrective action
+EVT-00868,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-26,quality_check,scheduled_sample_inspection,2026-09-26T20:16,2026-09-26T20:35,19,Record simulated sample inspection result
+EVT-00869,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-26,unplanned_stop,cut_length_deviation,2026-09-26T20:23,2026-09-26T20:32,9,Investigate recorded symptom; log simulated corrective action
+EVT-00870,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-26,unplanned_stop,buffer_signal_issue,2026-09-26T20:49,2026-09-26T21:31,42,Investigate recorded symptom; log simulated corrective action
+EVT-00871,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-26,unplanned_stop,strip_quality_defect,2026-09-26T21:01,2026-09-26T21:14,13,Investigate recorded symptom; log simulated corrective action
+EVT-00872,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-26,setup,planned_changeover,2026-09-27T03:00,2026-09-27T03:10,10,Complete simulated setup and verify sample
+EVT-00873,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-26,unplanned_stop,cut_length_deviation,2026-09-27T03:09,2026-09-27T03:16,7,Investigate recorded symptom; log simulated corrective action
+EVT-00874,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-26,setup,planned_changeover,2026-09-27T03:14,2026-09-27T03:30,16,Complete simulated setup and verify sample
+EVT-00875,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-26,unplanned_stop,rotary_cut_fault,2026-09-27T04:19,2026-09-27T04:34,15,Investigate recorded symptom; log simulated corrective action
+EVT-00876,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-26,unplanned_stop,cut_length_deviation,2026-09-27T04:39,2026-09-27T05:00,21,Investigate recorded symptom; log simulated corrective action
+EVT-00877,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-26,unplanned_stop,cable_path_issue,2026-09-27T05:25,2026-09-27T05:54,29,Investigate recorded symptom; log simulated corrective action
+EVT-00878,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,night,2026-09-26,unplanned_stop,csu_cycle_fault,2026-09-27T05:38,2026-09-27T05:46,8,Investigate recorded symptom; log simulated corrective action
+EVT-00879,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,morning,2026-09-27,unplanned_stop,feed_interruption,2026-09-27T06:57,2026-09-27T07:34,37,Investigate recorded symptom; log simulated corrective action
+EVT-00880,SIM-CUT-04,SIM-CONFIG-04,collection_machine,morning,2026-09-27,unplanned_stop,active_offloader_issue,2026-09-27T06:57,2026-09-27T07:23,26,Investigate recorded symptom; log simulated corrective action
+EVT-00881,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-27,unplanned_stop,incomplete_cut,2026-09-27T07:42,2026-09-27T07:59,17,Investigate recorded symptom; log simulated corrective action
+EVT-00882,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,morning,2026-09-27,setup,planned_changeover,2026-09-27T08:22,2026-09-27T08:33,11,Complete simulated setup and verify sample
+EVT-00883,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,morning,2026-09-27,unplanned_stop,cable_path_issue,2026-09-27T08:25,2026-09-27T08:45,20,Investigate recorded symptom; log simulated corrective action
+EVT-00884,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,morning,2026-09-27,quality_check,scheduled_sample_inspection,2026-09-27T08:28,2026-09-27T08:35,7,Record simulated sample inspection result
+EVT-00885,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-27,setup,planned_changeover,2026-09-27T09:14,2026-09-27T09:37,23,Complete simulated setup and verify sample
+EVT-00886,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-27,setup,planned_changeover,2026-09-27T10:00,2026-09-27T10:07,7,Complete simulated setup and verify sample
+EVT-00887,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-27,unplanned_stop,mark_legibility_issue,2026-09-27T10:20,2026-09-27T10:48,28,Investigate recorded symptom; log simulated corrective action
+EVT-00888,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-27,unplanned_stop,cable_path_issue,2026-09-27T11:53,2026-09-27T12:21,28,Investigate recorded symptom; log simulated corrective action
+EVT-00889,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-27,unplanned_stop,incomplete_ribbon_transfer,2026-09-27T12:15,2026-09-27T12:52,37,Investigate recorded symptom; log simulated corrective action
+EVT-00890,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-27,unplanned_stop,mark_position_issue,2026-09-27T12:23,2026-09-27T12:59,36,Investigate recorded symptom; log simulated corrective action
+EVT-00891,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-27,unplanned_stop,cut_length_deviation,2026-09-27T14:55,2026-09-27T15:22,27,Investigate recorded symptom; log simulated corrective action
+EVT-00892,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-27,unplanned_stop,csu_cycle_fault,2026-09-27T16:38,2026-09-27T16:58,20,Investigate recorded symptom; log simulated corrective action
+EVT-00893,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-27,setup,planned_changeover,2026-09-27T16:53,2026-09-27T17:10,17,Complete simulated setup and verify sample
+EVT-00894,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-27,unplanned_stop,mark_legibility_issue,2026-09-27T17:26,2026-09-27T17:34,8,Investigate recorded symptom; log simulated corrective action
+EVT-00895,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-27,unplanned_stop,incomplete_ribbon_transfer,2026-09-27T18:59,2026-09-27T19:14,15,Investigate recorded symptom; log simulated corrective action
+EVT-00896,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-27,setup,planned_changeover,2026-09-27T20:29,2026-09-27T20:36,7,Complete simulated setup and verify sample
+EVT-00897,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-27,unplanned_stop,incomplete_cut,2026-09-27T21:50,2026-09-27T22:21,31,Investigate recorded symptom; log simulated corrective action
+EVT-00898,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-27,unplanned_stop,loop_tension_variation,2026-09-27T22:11,2026-09-27T22:50,39,Investigate recorded symptom; log simulated corrective action
+EVT-00899,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-27,unplanned_stop,mark_position_issue,2026-09-27T22:53,2026-09-27T23:19,26,Investigate recorded symptom; log simulated corrective action
+EVT-00900,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-27,setup,planned_changeover,2026-09-27T23:35,2026-09-27T23:46,11,Complete simulated setup and verify sample
+EVT-00901,SIM-CUT-05,SIM-CONFIG-05,centerstrip_csu,night,2026-09-27,unplanned_stop,center_strip_defect,2026-09-28T00:27,2026-09-28T00:54,27,Investigate recorded symptom; log simulated corrective action
+EVT-00902,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-27,unplanned_stop,cable_path_issue,2026-09-28T00:34,2026-09-28T00:54,20,Investigate recorded symptom; log simulated corrective action
+EVT-00903,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-27,setup,planned_changeover,2026-09-28T01:11,2026-09-28T01:40,29,Complete simulated setup and verify sample
+EVT-00904,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-27,setup,planned_changeover,2026-09-28T02:23,2026-09-28T02:36,13,Complete simulated setup and verify sample
+EVT-00905,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-27,setup,planned_changeover,2026-09-28T02:41,2026-09-28T03:02,21,Complete simulated setup and verify sample
+EVT-00906,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,night,2026-09-27,setup,rotary_box_calibration,2026-09-28T03:21,2026-09-28T03:39,18,Complete simulated setup and verify sample
+EVT-00907,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-27,unplanned_stop,buffer_signal_issue,2026-09-28T03:47,2026-09-28T03:57,10,Investigate recorded symptom; log simulated corrective action
+EVT-00908,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-27,unplanned_stop,strip_quality_defect,2026-09-28T04:09,2026-09-28T04:21,12,Investigate recorded symptom; log simulated corrective action
+EVT-00909,SIM-CUT-01,SIM-CONFIG-01,letter_marking,night,2026-09-27,unplanned_stop,mark_position_issue,2026-09-28T05:05,2026-09-28T05:14,9,Investigate recorded symptom; log simulated corrective action
+EVT-00910,SIM-CUT-03,SIM-CONFIG-03,v_loop,night,2026-09-27,unplanned_stop,buffer_signal_issue,2026-09-28T05:41,2026-09-28T05:55,14,Investigate recorded symptom; log simulated corrective action
+EVT-00911,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-28,unplanned_stop,ribbon_feed_fault,2026-09-28T07:50,2026-09-28T08:07,17,Investigate recorded symptom; log simulated corrective action
+EVT-00912,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-28,unplanned_stop,feed_interruption,2026-09-28T08:54,2026-09-28T09:26,32,Investigate recorded symptom; log simulated corrective action
+EVT-00913,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T09:46,2026-09-28T09:57,11,Record simulated sample inspection result
+EVT-00914,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-28,setup,planned_changeover,2026-09-28T10:11,2026-09-28T10:26,15,Complete simulated setup and verify sample
+EVT-00915,SIM-CUT-01,SIM-CONFIG-01,letter_marking,morning,2026-09-28,unplanned_stop,mark_position_issue,2026-09-28T10:44,2026-09-28T10:51,7,Investigate recorded symptom; log simulated corrective action
+EVT-00916,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T11:09,2026-09-28T11:28,19,Record simulated sample inspection result
+EVT-00917,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-28,unplanned_stop,mark_legibility_issue,2026-09-28T12:19,2026-09-28T12:50,31,Investigate recorded symptom; log simulated corrective action
+EVT-00918,SIM-CUT-04,SIM-CONFIG-04,letter_marking,morning,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T12:20,2026-09-28T12:35,15,Record simulated sample inspection result
+EVT-00919,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,morning,2026-09-28,unplanned_stop,incomplete_ribbon_transfer,2026-09-28T13:09,2026-09-28T13:36,27,Investigate recorded symptom; log simulated corrective action
+EVT-00920,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-28,unplanned_stop,feed_interruption,2026-09-28T13:45,2026-09-28T13:55,10,Investigate recorded symptom; log simulated corrective action
+EVT-00921,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-28,setup,planned_changeover,2026-09-28T14:58,2026-09-28T15:06,8,Complete simulated setup and verify sample
+EVT-00922,SIM-CUT-01,SIM-CONFIG-01,v_loop,morning,2026-09-28,unplanned_stop,buffer_signal_issue,2026-09-28T15:08,2026-09-28T15:27,19,Investigate recorded symptom; log simulated corrective action
+EVT-00923,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-28,setup,planned_changeover,2026-09-28T15:30,2026-09-28T16:05,35,Complete simulated setup and verify sample
+EVT-00924,SIM-CUT-01,SIM-CONFIG-01,centerstrip_csu,morning,2026-09-28,unplanned_stop,center_strip_defect,2026-09-28T15:40,2026-09-28T16:14,34,Investigate recorded symptom; log simulated corrective action
+EVT-00925,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-28,setup,planned_changeover,2026-09-28T16:19,2026-09-28T16:40,21,Complete simulated setup and verify sample
+EVT-00926,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-28,unplanned_stop,wirestacker_stacking_issue,2026-09-28T18:28,2026-09-28T19:08,40,Investigate recorded symptom; log simulated corrective action
+EVT-00927,SIM-CUT-02,SIM-CONFIG-02,letter_marking,night,2026-09-28,unplanned_stop,mark_legibility_issue,2026-09-28T18:39,2026-09-28T19:06,27,Investigate recorded symptom; log simulated corrective action
+EVT-00928,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-28,setup,planned_changeover,2026-09-28T19:11,2026-09-28T19:24,13,Complete simulated setup and verify sample
+EVT-00929,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-28,unplanned_stop,feed_interruption,2026-09-28T19:50,2026-09-28T20:16,26,Investigate recorded symptom; log simulated corrective action
+EVT-00930,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-28,unplanned_stop,mark_legibility_issue,2026-09-28T20:00,2026-09-28T20:31,31,Investigate recorded symptom; log simulated corrective action
+EVT-00931,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T20:03,2026-09-28T20:37,34,Record simulated sample inspection result
+EVT-00932,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T20:43,2026-09-28T21:18,35,Record simulated sample inspection result
+EVT-00933,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-28,unplanned_stop,wirestacker_stacking_issue,2026-09-28T21:49,2026-09-28T22:27,38,Investigate recorded symptom; log simulated corrective action
+EVT-00934,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-28,setup,planned_changeover,2026-09-28T22:31,2026-09-28T22:43,12,Complete simulated setup and verify sample
+EVT-00935,SIM-CUT-05,SIM-CONFIG-05,cable_feeder,night,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-28T22:49,2026-09-28T23:08,19,Record simulated sample inspection result
+EVT-00936,SIM-CUT-04,SIM-CONFIG-04,teza_transfer_ribbon_marking,night,2026-09-28,unplanned_stop,ribbon_feed_fault,2026-09-28T23:26,2026-09-28T23:49,23,Investigate recorded symptom; log simulated corrective action
+EVT-00937,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-28,unplanned_stop,buffer_signal_issue,2026-09-29T01:46,2026-09-29T02:15,29,Investigate recorded symptom; log simulated corrective action
+EVT-00938,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-28,quality_check,scheduled_sample_inspection,2026-09-29T01:48,2026-09-29T02:03,15,Record simulated sample inspection result
+EVT-00939,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-28,setup,planned_changeover,2026-09-29T02:07,2026-09-29T02:22,15,Complete simulated setup and verify sample
+EVT-00940,SIM-CUT-01,SIM-CONFIG-01,v_loop,night,2026-09-28,unplanned_stop,loop_tension_variation,2026-09-29T02:36,2026-09-29T02:40,4,Investigate recorded symptom; log simulated corrective action
+EVT-00941,SIM-CUT-04,SIM-CONFIG-04,cable_feeder,night,2026-09-28,unplanned_stop,feed_interruption,2026-09-29T02:46,2026-09-29T03:14,28,Investigate recorded symptom; log simulated corrective action
+EVT-00942,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-28,setup,planned_changeover,2026-09-29T03:14,2026-09-29T03:34,20,Complete simulated setup and verify sample
+EVT-00943,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-28,setup,planned_changeover,2026-09-29T04:24,2026-09-29T04:40,16,Complete simulated setup and verify sample
+EVT-00944,SIM-CUT-05,SIM-CONFIG-05,letter_marking,night,2026-09-28,unplanned_stop,mark_position_issue,2026-09-29T04:49,2026-09-29T04:55,6,Investigate recorded symptom; log simulated corrective action
+EVT-00945,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-28,unplanned_stop,strip_quality_defect,2026-09-29T05:26,2026-09-29T05:55,29,Investigate recorded symptom; log simulated corrective action
+EVT-00946,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-29,setup,planned_changeover,2026-09-29T06:16,2026-09-29T06:50,34,Complete simulated setup and verify sample
+EVT-00947,SIM-CUT-03,SIM-CONFIG-03,collection_machine,morning,2026-09-29,unplanned_stop,wirestacker_stacking_issue,2026-09-29T06:30,2026-09-29T06:57,27,Investigate recorded symptom; log simulated corrective action
+EVT-00948,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-29,setup,planned_changeover,2026-09-29T07:46,2026-09-29T08:04,18,Complete simulated setup and verify sample
+EVT-00949,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-29,setup,planned_changeover,2026-09-29T08:26,2026-09-29T08:40,14,Complete simulated setup and verify sample
+EVT-00950,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-29,setup,rotary_box_calibration,2026-09-29T10:01,2026-09-29T10:24,23,Complete simulated setup and verify sample
+EVT-00951,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-29,unplanned_stop,strip_quality_defect,2026-09-29T10:10,2026-09-29T10:17,7,Investigate recorded symptom; log simulated corrective action
+EVT-00952,SIM-CUT-01,SIM-CONFIG-01,teza_transfer_ribbon_marking,morning,2026-09-29,unplanned_stop,incomplete_ribbon_transfer,2026-09-29T10:11,2026-09-29T10:16,5,Investigate recorded symptom; log simulated corrective action
+EVT-00953,SIM-CUT-05,SIM-CONFIG-05,letter_marking,morning,2026-09-29,unplanned_stop,mark_position_issue,2026-09-29T11:14,2026-09-29T11:40,26,Investigate recorded symptom; log simulated corrective action
+EVT-00954,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-29,unplanned_stop,passive_offloader_issue,2026-09-29T11:52,2026-09-29T12:29,37,Investigate recorded symptom; log simulated corrective action
+EVT-00955,SIM-CUT-03,SIM-CONFIG-03,letter_marking,morning,2026-09-29,quality_check,scheduled_sample_inspection,2026-09-29T12:24,2026-09-29T12:34,10,Record simulated sample inspection result
+EVT-00956,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-29,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-29T12:56,2026-09-29T13:34,38,Investigate recorded symptom; log simulated corrective action
+EVT-00957,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-29,unplanned_stop,incomplete_cut,2026-09-29T13:35,2026-09-29T13:55,20,Investigate recorded symptom; log simulated corrective action
+EVT-00958,SIM-CUT-05,SIM-CONFIG-05,v_loop,morning,2026-09-29,unplanned_stop,loop_tension_variation,2026-09-29T13:45,2026-09-29T13:49,4,Investigate recorded symptom; log simulated corrective action
+EVT-00959,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-29,unplanned_stop,door_locking_system_issue,2026-09-29T14:40,2026-09-29T15:02,22,Investigate recorded symptom; log simulated corrective action
+EVT-00960,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-29,setup,planned_changeover,2026-09-29T15:34,2026-09-29T15:58,24,Complete simulated setup and verify sample
+EVT-00961,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,morning,2026-09-29,unplanned_stop,ribbon_feed_fault,2026-09-29T16:24,2026-09-29T16:58,34,Investigate recorded symptom; log simulated corrective action
+EVT-00962,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,morning,2026-09-29,unplanned_stop,cut_length_deviation,2026-09-29T17:47,2026-09-29T17:54,7,Investigate recorded symptom; log simulated corrective action
+EVT-00963,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-29,unplanned_stop,strip_quality_defect,2026-09-29T18:40,2026-09-29T18:59,19,Investigate recorded symptom; log simulated corrective action
+EVT-00964,SIM-CUT-04,SIM-CONFIG-04,v_loop,night,2026-09-29,unplanned_stop,buffer_signal_issue,2026-09-29T20:25,2026-09-29T20:31,6,Investigate recorded symptom; log simulated corrective action
+EVT-00965,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-29,unplanned_stop,cable_path_issue,2026-09-30T00:06,2026-09-30T00:11,5,Investigate recorded symptom; log simulated corrective action
+EVT-00966,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,night,2026-09-29,unplanned_stop,strip_quality_defect,2026-09-30T00:21,2026-09-30T00:41,20,Investigate recorded symptom; log simulated corrective action
+EVT-00967,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-29,setup,planned_changeover,2026-09-30T02:00,2026-09-30T02:21,21,Complete simulated setup and verify sample
+EVT-00968,SIM-CUT-02,SIM-CONFIG-02,cable_feeder,night,2026-09-29,unplanned_stop,feed_interruption,2026-09-30T02:32,2026-09-30T03:05,33,Investigate recorded symptom; log simulated corrective action
+EVT-00969,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-29,unplanned_stop,cut_length_deviation,2026-09-30T03:13,2026-09-30T03:36,23,Investigate recorded symptom; log simulated corrective action
+EVT-00970,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,night,2026-09-29,unplanned_stop,feed_interruption,2026-09-30T04:06,2026-09-30T04:47,41,Investigate recorded symptom; log simulated corrective action
+EVT-00971,SIM-CUT-04,SIM-CONFIG-04,letter_marking,night,2026-09-29,setup,planned_changeover,2026-09-30T04:27,2026-09-30T04:36,9,Complete simulated setup and verify sample
+EVT-00972,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-29,unplanned_stop,wirestacker_stacking_issue,2026-09-30T05:01,2026-09-30T05:16,15,Investigate recorded symptom; log simulated corrective action
+EVT-00973,SIM-CUT-05,SIM-CONFIG-05,collection_machine,night,2026-09-29,unplanned_stop,passive_offloader_issue,2026-09-30T05:07,2026-09-30T05:28,21,Investigate recorded symptom; log simulated corrective action
+EVT-00974,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-30,unplanned_stop,loop_tension_variation,2026-09-30T06:00,2026-09-30T06:36,36,Investigate recorded symptom; log simulated corrective action
+EVT-00975,SIM-CUT-02,SIM-CONFIG-02,collection_machine,morning,2026-09-30,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-09-30T08:04,2026-09-30T08:22,18,Investigate recorded symptom; log simulated corrective action
+EVT-00976,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-30,setup,planned_changeover,2026-09-30T08:59,2026-09-30T09:05,6,Complete simulated setup and verify sample
+EVT-00977,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-30,quality_check,scheduled_sample_inspection,2026-09-30T10:14,2026-09-30T10:38,24,Record simulated sample inspection result
+EVT-00978,SIM-CUT-02,SIM-CONFIG-02,letter_marking,morning,2026-09-30,unplanned_stop,mark_legibility_issue,2026-09-30T10:24,2026-09-30T10:41,17,Investigate recorded symptom; log simulated corrective action
+EVT-00979,SIM-CUT-04,SIM-CONFIG-04,cutting_stripping,morning,2026-09-30,unplanned_stop,cut_length_deviation,2026-09-30T10:49,2026-09-30T11:15,26,Investigate recorded symptom; log simulated corrective action
+EVT-00980,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-30,unplanned_stop,feed_interruption,2026-09-30T10:55,2026-09-30T11:34,39,Investigate recorded symptom; log simulated corrective action
+EVT-00981,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,morning,2026-09-30,unplanned_stop,incomplete_ribbon_transfer,2026-09-30T11:09,2026-09-30T11:41,32,Investigate recorded symptom; log simulated corrective action
+EVT-00982,SIM-CUT-05,SIM-CONFIG-05,collection_machine,morning,2026-09-30,unplanned_stop,passive_offloader_issue,2026-09-30T11:58,2026-09-30T12:10,12,Investigate recorded symptom; log simulated corrective action
+EVT-00983,SIM-CUT-03,SIM-CONFIG-03,cutting_stripping,morning,2026-09-30,unplanned_stop,cut_length_deviation,2026-09-30T13:08,2026-09-30T13:42,34,Investigate recorded symptom; log simulated corrective action
+EVT-00984,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,morning,2026-09-30,unplanned_stop,cut_length_deviation,2026-09-30T14:14,2026-09-30T14:56,42,Investigate recorded symptom; log simulated corrective action
+EVT-00985,SIM-CUT-01,SIM-CONFIG-01,collection_machine,morning,2026-09-30,unplanned_stop,door_locking_system_issue,2026-09-30T15:40,2026-09-30T15:56,16,Investigate recorded symptom; log simulated corrective action
+EVT-00986,SIM-CUT-01,SIM-CONFIG-01,cable_feeder,morning,2026-09-30,unplanned_stop,cable_path_issue,2026-09-30T15:56,2026-09-30T16:34,38,Investigate recorded symptom; log simulated corrective action
+EVT-00987,SIM-CUT-02,SIM-CONFIG-02,v_loop,morning,2026-09-30,unplanned_stop,buffer_signal_issue,2026-09-30T16:05,2026-09-30T16:30,25,Investigate recorded symptom; log simulated corrective action
+EVT-00988,SIM-CUT-03,SIM-CONFIG-03,cable_feeder,morning,2026-09-30,unplanned_stop,cable_path_issue,2026-09-30T16:20,2026-09-30T16:26,6,Investigate recorded symptom; log simulated corrective action
+EVT-00989,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-30,unplanned_stop,incomplete_ribbon_transfer,2026-09-30T18:57,2026-09-30T19:34,37,Investigate recorded symptom; log simulated corrective action
+EVT-00990,SIM-CUT-05,SIM-CONFIG-05,teza_transfer_ribbon_marking,night,2026-09-30,unplanned_stop,ribbon_feed_fault,2026-09-30T19:48,2026-09-30T19:57,9,Investigate recorded symptom; log simulated corrective action
+EVT-00991,SIM-CUT-03,SIM-CONFIG-03,letter_marking,night,2026-09-30,unplanned_stop,mark_legibility_issue,2026-09-30T20:12,2026-09-30T20:37,25,Investigate recorded symptom; log simulated corrective action
+EVT-00992,SIM-CUT-01,SIM-CONFIG-01,cutting_stripping,night,2026-09-30,setup,planned_changeover,2026-09-30T20:41,2026-09-30T21:03,22,Complete simulated setup and verify sample
+EVT-00993,SIM-CUT-02,SIM-CONFIG-02,cutting_stripping,night,2026-09-30,setup,planned_changeover,2026-09-30T20:57,2026-09-30T21:13,16,Complete simulated setup and verify sample
+EVT-00994,SIM-CUT-03,SIM-CONFIG-03,collection_machine,night,2026-09-30,setup,planned_changeover,2026-09-30T21:22,2026-09-30T21:52,30,Complete simulated setup and verify sample
+EVT-00995,SIM-CUT-02,SIM-CONFIG-02,v_loop,night,2026-09-30,unplanned_stop,loop_tension_variation,2026-09-30T22:36,2026-09-30T22:39,3,Investigate recorded symptom; log simulated corrective action
+EVT-00996,SIM-CUT-03,SIM-CONFIG-03,centerstrip_csu,night,2026-09-30,setup,planned_changeover,2026-09-30T22:43,2026-09-30T23:02,19,Complete simulated setup and verify sample
+EVT-00997,SIM-CUT-02,SIM-CONFIG-02,teza_transfer_ribbon_marking,night,2026-09-30,unplanned_stop,ribbon_feed_fault,2026-10-01T01:23,2026-10-01T02:01,38,Investigate recorded symptom; log simulated corrective action
+EVT-00998,SIM-CUT-03,SIM-CONFIG-03,teza_transfer_ribbon_marking,night,2026-09-30,quality_check,scheduled_sample_inspection,2026-10-01T03:12,2026-10-01T03:23,11,Record simulated sample inspection result
+EVT-00999,SIM-CUT-02,SIM-CONFIG-02,collection_machine,night,2026-09-30,unplanned_stop,cablecoiler_feed_or_coiling_issue,2026-10-01T04:48,2026-10-01T04:53,5,Investigate recorded symptom; log simulated corrective action
+EVT-01000,SIM-CUT-05,SIM-CONFIG-05,cutting_stripping,night,2026-09-30,unplanned_stop,incomplete_cut,2026-10-01T04:55,2026-10-01T05:15,20,Investigate recorded symptom; log simulated corrective action
